@@ -1,0 +1,1746 @@
+[
+  {
+    "domain": "baidu.com",
+    "rank": 6,
+    "category": "Search",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "220.181.7.203",
+      "39.156.70.37"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "wikipedia.org",
+    "rank": 7,
+    "category": "Reference",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "103.102.166.224"
+    ],
+    "ipv6_addresses": [
+      "2001:df2:e500:ed1a::1"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "google.com",
+    "rank": 1,
+    "category": "Search",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "172.217.24.46"
+    ],
+    "ipv6_addresses": [
+      "2404:6800:4006:804::200e"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "amazon.com",
+    "rank": 11,
+    "category": "E-commerce",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "54.239.28.85",
+      "52.94.236.248",
+      "205.251.242.103"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "twitter.com",
+    "rank": 4,
+    "category": "Social Media",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "172.66.0.227"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "live.com",
+    "rank": 13,
+    "category": "Email",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "204.79.197.212"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "facebook.com",
+    "rank": 3,
+    "category": "Social Media",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "157.240.8.35"
+    ],
+    "ipv6_addresses": [
+      "2a03:2880:f119:8083:face:b00c:0:25de"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "whatsapp.com",
+    "rank": 10,
+    "category": "Messaging",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "157.240.8.53"
+    ],
+    "ipv6_addresses": [
+      "2a03:2880:f219:80c5:face:b00c:0:167"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "office.com",
+    "rank": 17,
+    "category": "Productivity",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "13.107.6.156"
+    ],
+    "ipv6_addresses": [
+      "2620:1ec:a92::156"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "tiktok.com",
+    "rank": 12,
+    "category": "Social Media",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.219.86.56",
+      "23.219.86.96"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "youtube.com",
+    "rank": 2,
+    "category": "Video",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "172.217.24.46"
+    ],
+    "ipv6_addresses": [
+      "2404:6800:4006:804::200e"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "yahoo.com",
+    "rank": 9,
+    "category": "Portal",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "74.6.143.26",
+      "74.6.231.20",
+      "74.6.143.25",
+      "98.137.11.163",
+      "74.6.231.21",
+      "98.137.11.164"
+    ],
+    "ipv6_addresses": [
+      "2001:4998:24:120d::1:1",
+      "2001:4998:24:120d::1:0",
+      "2001:4998:124:1507::f001",
+      "2001:4998:44:3507::8001",
+      "2001:4998:124:1507::f000",
+      "2001:4998:44:3507::8000"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "microsoft.com",
+    "rank": 16,
+    "category": "Technology",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "13.107.246.31"
+    ],
+    "ipv6_addresses": [
+      "2603:1030:b:3::152",
+      "2603:1020:201:10::10f",
+      "2603:1030:20e:3::23c",
+      "2603:1030:c02:8::14",
+      "2603:1010:3:3::5b"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "reddit.com",
+    "rank": 14,
+    "category": "Forum",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "151.101.129.140",
+      "151.101.193.140",
+      "151.101.1.140",
+      "151.101.65.140"
+    ],
+    "ipv6_addresses": [
+      "2a04:4e42:600::396",
+      "2a04:4e42::396",
+      "2a04:4e42:200::396",
+      "2a04:4e42:400::396"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "twitch.tv",
+    "rank": 20,
+    "category": "Gaming/Streaming",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.130.167",
+      "151.101.2.167",
+      "151.101.194.167",
+      "151.101.66.167"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "discord.com",
+    "rank": 19,
+    "category": "Gaming/Chat",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "162.159.136.232",
+      "162.159.137.232",
+      "162.159.135.232",
+      "162.159.128.233",
+      "162.159.138.232"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "twitch.tv",
+    "rank": 46,
+    "category": "Live Streaming",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.130.167",
+      "151.101.2.167",
+      "151.101.194.167",
+      "151.101.66.167"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "duckduckgo.com",
+    "rank": 24,
+    "category": "Search",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "20.43.111.112"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "bing.com",
+    "rank": 23,
+    "category": "Search",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "150.171.28.10",
+      "150.171.27.10"
+    ],
+    "ipv6_addresses": [
+      "2620:1ec:33::10",
+      "2620:1ec:33:1::10"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "pinterest.com",
+    "rank": 25,
+    "category": "Social Media",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.0.84",
+      "151.101.192.84",
+      "151.101.64.84",
+      "151.101.128.84"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "cnn.com",
+    "rank": 27,
+    "category": "News",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "151.101.67.5",
+      "151.101.3.5",
+      "151.101.131.5",
+      "151.101.195.5"
+    ],
+    "ipv6_addresses": [
+      "2a04:4e42:600::773",
+      "2a04:4e42:400::773",
+      "2a04:4e42:800::773",
+      "2a04:4e42:e00::773",
+      "2a04:4e42:200::773",
+      "2a04:4e42:a00::773",
+      "2a04:4e42::773",
+      "2a04:4e42:c00::773"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "linkedin.com",
+    "rank": 21,
+    "category": "Professional Network",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "150.171.22.12"
+    ],
+    "ipv6_addresses": [
+      "2620:1ec:50::12"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ebay.com",
+    "rank": 26,
+    "category": "E-commerce",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.32.5.40",
+      "23.32.5.87"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "news.google.com",
+    "rank": 22,
+    "category": "News",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "172.217.24.46"
+    ],
+    "ipv6_addresses": [
+      "2404:6800:4006:804::200e"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "instagram.com",
+    "rank": 5,
+    "category": "Social Media",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "157.240.8.174"
+    ],
+    "ipv6_addresses": [
+      "2a03:2880:f219:80e5:face:b00c:0:4420"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "apple.com",
+    "rank": 31,
+    "category": "Technology",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "17.253.144.10"
+    ],
+    "ipv6_addresses": [
+      "2620:149:af0::10"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "github.com",
+    "rank": 30,
+    "category": "Developer Platform",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "4.237.22.38"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "adobe.com",
+    "rank": 32,
+    "category": "Software",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "123.253.149.186",
+      "123.253.149.145"
+    ],
+    "ipv6_addresses": [
+      "2403:5800:100:28::7bfd:95ba",
+      "2403:5800:100:28::7bfd:9591"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "stackoverflow.com",
+    "rank": 29,
+    "category": "Developer Community",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "172.64.155.249",
+      "104.18.32.7"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "salesforce.com",
+    "rank": 34,
+    "category": "Business Software",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "104.109.10.129",
+      "23.1.99.130",
+      "184.25.179.132",
+      "23.1.35.132",
+      "23.1.106.133",
+      "104.109.11.129",
+      "184.31.3.130",
+      "184.31.10.133"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "shopify.com",
+    "rank": 36,
+    "category": "E-commerce Platform",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.227.38.33"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "tumblr.com",
+    "rank": 38,
+    "category": "Blogging Platform",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "192.0.77.40"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "dropbox.com",
+    "rank": 35,
+    "category": "Cloud Storage",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "162.125.248.18"
+    ],
+    "ipv6_addresses": [
+      "2620:100:6040:18::a27d:f812"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "vimeo.com",
+    "rank": 44,
+    "category": "Video Platform",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "162.159.138.60",
+      "162.159.128.61"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "quora.com",
+    "rank": 40,
+    "category": "Q&A Platform",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "3.215.239.118",
+      "3.217.74.156",
+      "52.1.87.166",
+      "54.236.197.93",
+      "3.213.68.35",
+      "3.225.0.31"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "spotify.com",
+    "rank": 42,
+    "category": "Music Streaming",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "35.186.224.24"
+    ],
+    "ipv6_addresses": [
+      "2600:1901:1:7c5::"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "imdb.com",
+    "rank": 41,
+    "category": "Entertainment",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "52.94.225.248",
+      "52.94.228.167",
+      "52.94.237.74"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "soundcloud.com",
+    "rank": 43,
+    "category": "Music Platform",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.229.57",
+      "18.155.229.88",
+      "18.155.229.78",
+      "18.155.229.30"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "cloudflare.com",
+    "rank": 51,
+    "category": "CDN/Security",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "104.16.133.229",
+      "104.16.132.229"
+    ],
+    "ipv6_addresses": [
+      "2606:4700::6810:85e5",
+      "2606:4700::6810:84e5"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "wordpress.com",
+    "rank": 37,
+    "category": "Blogging Platform",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "192.0.78.17",
+      "192.0.78.9"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "medium.com",
+    "rank": 39,
+    "category": "Blogging Platform",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "162.159.153.4",
+      "162.159.152.4"
+    ],
+    "ipv6_addresses": [
+      "2606:4700:7::a29f:9904",
+      "2606:4700:7::a29f:9804"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "namecheap.com",
+    "rank": 53,
+    "category": "Domain/Hosting",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "198.54.117.250"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "godaddy.com",
+    "rank": 52,
+    "category": "Domain/Hosting",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "208.109.192.70"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "digitalocean.com",
+    "rank": 54,
+    "category": "Cloud Hosting",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "104.19.174.68",
+      "104.19.173.68"
+    ],
+    "ipv6_addresses": [
+      "2606:4700::6813:ae44",
+      "2606:4700::6813:ad44"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "azure.microsoft.com",
+    "rank": 56,
+    "category": "Cloud Platform",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "23.209.90.170"
+    ],
+    "ipv6_addresses": [
+      "2600:1415:8:29c::439b",
+      "2600:1415:8:280::439b"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "cloud.google.com",
+    "rank": 57,
+    "category": "Cloud Platform",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "172.217.24.46"
+    ],
+    "ipv6_addresses": [
+      "2404:6800:4006:804::200e"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "heroku.com",
+    "rank": 58,
+    "category": "Cloud Platform",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "192.0.66.110"
+    ],
+    "ipv6_addresses": [
+      "2a04:fa87:fffd::c000:426e"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "wellsfargo.com",
+    "rank": 63,
+    "category": "Banking",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.45.168.51",
+      "23.45.168.56"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "yandex.ru",
+    "rank": 8,
+    "category": "Search",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "77.88.55.88",
+      "5.255.255.77",
+      "77.88.44.55"
+    ],
+    "ipv6_addresses": [
+      "2a02:6b8:a::a"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "aws.amazon.com",
+    "rank": 55,
+    "category": "Cloud Platform",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "18.155.229.103",
+      "18.155.229.119",
+      "18.155.229.9",
+      "18.155.229.40"
+    ],
+    "ipv6_addresses": [
+      "2600:9000:246a:ec00:1c:a813:8500:93a1",
+      "2600:9000:246a:4400:1c:a813:8500:93a1",
+      "2600:9000:246a:1a00:1c:a813:8500:93a1",
+      "2600:9000:246a:7a00:1c:a813:8500:93a1",
+      "2600:9000:246a:9400:1c:a813:8500:93a1",
+      "2600:9000:246a:8400:1c:a813:8500:93a1",
+      "2600:9000:246a:a000:1c:a813:8500:93a1",
+      "2600:9000:246a:7e00:1c:a813:8500:93a1"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "etsy.com",
+    "rank": 66,
+    "category": "E-commerce",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.129.224",
+      "151.101.65.224",
+      "151.101.193.224",
+      "151.101.1.224"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "citibank.com",
+    "rank": 64,
+    "category": "Banking",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "104.94.222.171",
+      "104.96.178.165"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "target.com",
+    "rank": 68,
+    "category": "Retail",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.2.187",
+      "151.101.130.187",
+      "151.101.194.187",
+      "151.101.66.187"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "homedepot.com",
+    "rank": 70,
+    "category": "Home Improvement",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "35.201.95.83"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "americanexpress.com",
+    "rank": 65,
+    "category": "Financial Services",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.62.245.217"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "tripadvisor.com",
+    "rank": 74,
+    "category": "Travel",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.2.28",
+      "151.101.130.28",
+      "151.101.194.28",
+      "151.101.66.28"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "booking.com",
+    "rank": 71,
+    "category": "Travel",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.216.12",
+      "18.155.216.70",
+      "18.155.216.90",
+      "18.155.216.31"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "bestbuy.com",
+    "rank": 69,
+    "category": "Electronics",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "184.31.253.27"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "airbnb.com",
+    "rank": 73,
+    "category": "Travel",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "166.117.27.62",
+      "166.117.189.176"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "uber.com",
+    "rank": 75,
+    "category": "Transportation",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "69.48.216.7"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "roblox.com",
+    "rank": 78,
+    "category": "Gaming",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "128.116.51.3"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "epicgames.com",
+    "rank": 77,
+    "category": "Gaming",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "35.169.179.193",
+      "54.90.55.218",
+      "52.202.251.90"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "walmart.com",
+    "rank": 67,
+    "category": "Retail",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "184.31.252.224"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ea.com",
+    "rank": 80,
+    "category": "Gaming",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "23.211.128.190"
+    ],
+    "ipv6_addresses": [
+      "2600:1415:4c00:280::1127",
+      "2600:1415:4c00:293::1127"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "nytimes.com",
+    "rank": 81,
+    "category": "News",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.129.164",
+      "151.101.193.164",
+      "151.101.65.164",
+      "151.101.1.164"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "expedia.com",
+    "rank": 72,
+    "category": "Travel",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "104.68.1.150"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "theguardian.com",
+    "rank": 83,
+    "category": "News",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "151.101.129.111",
+      "151.101.193.111",
+      "151.101.65.111",
+      "151.101.1.111"
+    ],
+    "ipv6_addresses": [
+      "2a04:4e42:200::367",
+      "2a04:4e42:400::367",
+      "2a04:4e42::367",
+      "2a04:4e42:600::367"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "paypal.com",
+    "rank": 33,
+    "category": "Finance",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.195.1",
+      "151.101.3.1",
+      "162.159.141.96"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "bloomberg.com",
+    "rank": 85,
+    "category": "Financial News",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "3.33.146.110",
+      "15.197.146.156"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "duolingo.com",
+    "rank": 90,
+    "category": "Language Learning",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "52.1.117.88",
+      "44.209.182.30",
+      "98.85.144.204"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "edx.org",
+    "rank": 87,
+    "category": "Education",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.229.30",
+      "18.155.229.13",
+      "18.155.229.19",
+      "18.155.229.61"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "glassdoor.com",
+    "rank": 93,
+    "category": "Job Reviews",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "104.16.25.46",
+      "104.17.64.70"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "vercel.com",
+    "rank": 60,
+    "category": "Web Development",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "198.169.1.65",
+      "198.169.1.129"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "udemy.com",
+    "rank": 89,
+    "category": "Education",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "104.16.142.237",
+      "104.16.143.237"
+    ],
+    "ipv6_addresses": [
+      "2606:4700::6810:8eed",
+      "2606:4700::6810:8fed"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "khanacademy.org",
+    "rank": 88,
+    "category": "Education",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.216.92",
+      "18.155.216.67",
+      "18.155.216.17",
+      "18.155.216.112"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "minecraft.net",
+    "rank": 79,
+    "category": "Gaming",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "13.107.246.31"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "indeed.com",
+    "rank": 92,
+    "category": "Job Search",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "162.159.130.67",
+      "162.159.129.67"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "weather.com",
+    "rank": 91,
+    "category": "Weather",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "23.216.106.186"
+    ],
+    "ipv6_addresses": [
+      "2600:1415:4c00:28f::2e03",
+      "2600:1415:4c00:28c::2e03"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "coursera.org",
+    "rank": 86,
+    "category": "Education",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.229.124",
+      "18.155.229.17",
+      "18.155.229.39",
+      "18.155.229.76"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "yelp.com",
+    "rank": 94,
+    "category": "Local Reviews",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.28.116"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "realtor.com",
+    "rank": 97,
+    "category": "Real Estate",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "54.148.98.144",
+      "52.26.241.162",
+      "34.223.132.243"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "reuters.com",
+    "rank": 84,
+    "category": "News",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "155.46.172.255"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "webmd.com",
+    "rank": 98,
+    "category": "Health",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "207.231.204.56"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "zillow.com",
+    "rank": 96,
+    "category": "Real Estate",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.238.192.37",
+      "18.238.192.54",
+      "18.238.192.59",
+      "18.238.192.25"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "bankofamerica.com",
+    "rank": 62,
+    "category": "Banking",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "171.159.228.150",
+      "171.161.148.150"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "healthline.com",
+    "rank": 100,
+    "category": "Health",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "65.8.180.124",
+      "65.8.180.31",
+      "65.8.180.80",
+      "65.8.180.48"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "netlify.com",
+    "rank": 59,
+    "category": "Web Development",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "15.197.167.90",
+      "3.33.186.135"
+    ],
+    "ipv6_addresses": [
+      "2406:da1c:cc9:3500::1f5"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "bbc.com",
+    "rank": 28,
+    "category": "News",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "151.101.192.81",
+      "151.101.0.81",
+      "151.101.128.81",
+      "151.101.64.81"
+    ],
+    "ipv6_addresses": [
+      "2a04:4e42:600::81",
+      "2a04:4e42::81",
+      "2a04:4e42:400::81",
+      "2a04:4e42:200::81"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "steam.com",
+    "rank": 76,
+    "category": "Gaming",
+    "connectivity_status": "no_connectivity",
+    "has_ipv4": false,
+    "has_ipv6": false,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "mayoclinic.org",
+    "rank": 99,
+    "category": "Health",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "129.176.1.88"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "craigslist.org",
+    "rank": 95,
+    "category": "Classifieds",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "208.82.237.129"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "washingtonpost.com",
+    "rank": 82,
+    "category": "News",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "104.74.34.91"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "dailymotion.com",
+    "rank": 45,
+    "category": "Video Platform",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "195.8.215.136"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "hulu.com",
+    "rank": 47,
+    "category": "Streaming",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.219.86.74",
+      "23.219.86.96"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "zoom.us",
+    "rank": 18,
+    "category": "Video Conferencing",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "170.114.52.2"
+    ],
+    "ipv6_addresses": [
+      "2407:30c0:182::aa72:3402"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "netflix.com",
+    "rank": 15,
+    "category": "Streaming",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "44.234.232.238",
+      "44.242.60.85",
+      "44.237.234.25"
+    ],
+    "ipv6_addresses": [
+      "2600:1f14:62a:de85:d7:e7a1:8f7d:f6f5",
+      "2600:1f14:62a:de84:880a:88cc:a16:5423",
+      "2600:1f14:62a:de83:c61a:d6e:18b0:65f7"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "disneyplus.com",
+    "rank": 48,
+    "category": "Streaming",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "34.110.155.89"
+    ],
+    "ipv6_addresses": [
+      "2600:1901:0:84f4::80"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "hbomax.com",
+    "rank": 50,
+    "category": "Streaming",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "3.168.86.85",
+      "3.168.86.47",
+      "3.168.86.36",
+      "3.168.86.123"
+    ],
+    "ipv6_addresses": [
+      "2600:9000:2804:3e00:4:6cac:8b40:93a1",
+      "2600:9000:2804:5000:4:6cac:8b40:93a1",
+      "2600:9000:2804:fa00:4:6cac:8b40:93a1",
+      "2600:9000:2804:f800:4:6cac:8b40:93a1",
+      "2600:9000:2804:c200:4:6cac:8b40:93a1",
+      "2600:9000:2804:6e00:4:6cac:8b40:93a1",
+      "2600:9000:2804:7a00:4:6cac:8b40:93a1",
+      "2600:9000:2804:2200:4:6cac:8b40:93a1"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "primevideo.com",
+    "rank": 49,
+    "category": "Streaming",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.216.42",
+      "18.155.216.95",
+      "18.155.216.39",
+      "18.155.216.40"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "chase.com",
+    "rank": 61,
+    "category": "Banking",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "146.143.83.57",
+      "146.143.13.57",
+      "146.143.141.57"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  }
+]

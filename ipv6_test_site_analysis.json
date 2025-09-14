@@ -1,0 +1,502 @@
+[
+  {
+    "domain": "tunnelbroker.net",
+    "effective_domain": "tunnelbroker.net",
+    "rank": 27,
+    "category": "Services",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "64.62.200.2"
+    ],
+    "ipv6_addresses": [
+      "2001:470:0:63::2"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.com",
+    "effective_domain": "ipv6.com",
+    "rank": 23,
+    "category": "Informational",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "198.178.249.201"
+    ],
+    "ipv6_addresses": [
+      "2602:fa20:1:40::201"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.github.io",
+    "effective_domain": "ipv6.github.io",
+    "rank": 21,
+    "category": "Developer",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "185.199.110.153",
+      "185.199.111.153",
+      "185.199.108.153",
+      "185.199.109.153"
+    ],
+    "ipv6_addresses": [
+      "2606:50c0:8001::153",
+      "2606:50c0:8002::153",
+      "2606:50c0:8003::153",
+      "2606:50c0:8000::153"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.facebook.com",
+    "effective_domain": "ipv6.facebook.com",
+    "rank": 19,
+    "category": "Social Media",
+    "region": "Global",
+    "connectivity_status": "no_connectivity",
+    "has_ipv4": false,
+    "has_ipv6": false,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "www.v6.facebook.com",
+    "effective_domain": "www.v6.facebook.com",
+    "rank": 20,
+    "category": "Social Media",
+    "region": "Global",
+    "connectivity_status": "ipv6_only",
+    "has_ipv4": false,
+    "has_ipv6": true,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [
+      "2a03:2880:f119:8083:face:b00c:0:25de"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.google.com",
+    "effective_domain": "ipv6.google.com",
+    "rank": 3,
+    "category": "Connectivity Check",
+    "region": "Global",
+    "connectivity_status": "ipv6_only",
+    "has_ipv4": false,
+    "has_ipv6": true,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [
+      "2404:6800:4006:804::200e"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.getmyip.com",
+    "effective_domain": "ipv6.getmyip.com",
+    "rank": 12,
+    "category": "Address Lookup",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "0.0.0.0"
+    ],
+    "ipv6_addresses": [
+      "2a00:e68:0:b::dead:dead"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "go6.net",
+    "effective_domain": "go6.net",
+    "rank": 26,
+    "category": "Services",
+    "region": "Europe",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "104.21.48.1",
+      "104.21.96.1",
+      "104.21.32.1",
+      "104.21.80.1",
+      "104.21.64.1",
+      "104.21.16.1",
+      "104.21.112.1"
+    ],
+    "ipv6_addresses": [
+      "2606:4700:3030::6815:5001",
+      "2606:4700:3030::6815:6001",
+      "2606:4700:3030::6815:7001",
+      "2606:4700:3030::6815:4001",
+      "2606:4700:3030::6815:1001",
+      "2606:4700:3030::6815:2001",
+      "2606:4700:3030::6815:3001"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "whatismyv6.com",
+    "effective_domain": "whatismyv6.com",
+    "rank": 6,
+    "category": "Address Lookup",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "34.160.111.145"
+    ],
+    "ipv6_addresses": [
+      "2600:1901:0:b2bd::"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6-speedtest.net",
+    "effective_domain": "ipv6-speedtest.net",
+    "rank": 11,
+    "category": "Speed Test",
+    "region": "Global",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "185.53.177.52"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6now.com.au",
+    "effective_domain": "ipv6now.com.au",
+    "rank": 24,
+    "category": "Consultancy",
+    "region": "Oceania",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "118.88.27.52"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.microsoft.com",
+    "effective_domain": "www.ipv6.microsoft.com",
+    "rank": 22,
+    "category": "Corporate",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "131.107.152.134"
+    ],
+    "ipv6_addresses": [
+      "2002:836b:9820::836b:9886"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.he.net",
+    "effective_domain": "ipv6.he.net",
+    "rank": 7,
+    "category": "Connectivity Check",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "66.220.2.75"
+    ],
+    "ipv6_addresses": [
+      "2001:470:0:64::2"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.intel.com",
+    "effective_domain": "ipv6.intel.com",
+    "rank": 18,
+    "category": "Corporate",
+    "region": "Americas",
+    "connectivity_status": "no_connectivity",
+    "has_ipv4": false,
+    "has_ipv6": false,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ds.test-ipv6.com",
+    "effective_domain": "ds.test-ipv6.com",
+    "rank": 16,
+    "category": "Dual Stack Endpoint",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "45.79.238.217"
+    ],
+    "ipv6_addresses": [
+      "2400:8907::f03c:94ff:fed0:3fc3"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "test-ipv6.com",
+    "effective_domain": "test-ipv6.com",
+    "rank": 1,
+    "category": "Test Suite",
+    "region": "Global",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "45.79.238.217"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.act-on.be",
+    "effective_domain": "ipv6.act-on.be",
+    "rank": 25,
+    "category": "Consultancy",
+    "region": "Europe",
+    "connectivity_status": "no_connectivity",
+    "has_ipv4": false,
+    "has_ipv6": false,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv4.test-ipv6.com",
+    "effective_domain": "ipv4.test-ipv6.com",
+    "rank": 14,
+    "category": "IPv4 Only Endpoint",
+    "region": "Global",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "45.79.238.217"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.test-ipv6.com",
+    "effective_domain": "ipv6.test-ipv6.com",
+    "rank": 15,
+    "category": "IPv6 Only Endpoint",
+    "region": "Global",
+    "connectivity_status": "ipv6_only",
+    "has_ipv4": false,
+    "has_ipv6": true,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [
+      "2400:8907::f03c:94ff:fed0:3fc3"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "loopsofzen.uk",
+    "effective_domain": "loopsofzen.uk",
+    "rank": 8,
+    "category": "IPv6 Only",
+    "region": "Europe",
+    "connectivity_status": "ipv6_only",
+    "has_ipv4": false,
+    "has_ipv6": true,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [
+      "2001:8b0:0:30::666:102"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.is",
+    "effective_domain": "ipv6.is",
+    "rank": 9,
+    "category": "Connectivity Check",
+    "region": "Europe",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "79.171.98.69"
+    ],
+    "ipv6_addresses": [
+      "2a02:3c8:0:1018::69"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6-test.com",
+    "effective_domain": "ipv6-test.com",
+    "rank": 2,
+    "category": "Test Suite",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "51.75.78.103"
+    ],
+    "ipv6_addresses": [
+      "2001:41d0:701:1100::29c8"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "kame.net",
+    "effective_domain": "www.kame.net",
+    "rank": 17,
+    "category": "Fun Check",
+    "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "210.155.141.200"
+    ],
+    "ipv6_addresses": [
+      "2001:2f0:0:8800::1:1",
+      "2001:2f0:0:8800:226:2dff:fe0b:4311"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv4.rip",
+    "effective_domain": "ipv4.rip",
+    "rank": 13,
+    "category": "IPv6 Only",
+    "region": "Global",
+    "connectivity_status": "ipv6_only",
+    "has_ipv4": false,
+    "has_ipv6": true,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [
+      "2a07:1c80:102:193:100::10"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "test-ipv6.cz",
+    "effective_domain": "test-ipv6.cz",
+    "rank": 4,
+    "category": "Test Suite",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "217.31.204.129"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ipv6.ch",
+    "effective_domain": "ipv6.ch",
+    "rank": 10,
+    "category": "Connectivity Check",
+    "region": "Europe",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "77.109.180.4"
+    ],
+    "ipv6_addresses": [
+      "2001:1620:1700:1101::4"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "test-ipv6.net",
+    "effective_domain": "test-ipv6.net",
+    "rank": 5,
+    "category": "Test Suite",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "185.103.156.60"
+    ],
+    "ipv6_addresses": [
+      "2a05:1500:101:4::60"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  }
+]
