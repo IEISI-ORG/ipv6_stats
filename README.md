@@ -8,3 +8,11 @@ Google and other regular use sites worked, but GITHUB did not, and several ipv6 
 
 - Ref: http://bit.ly/4ntFNAG (and trace: https://urlscan.io/result/01994552-c402-7277-b630-565adbf7cb7a/ )
 
+- Top 1M Sites: http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
+
+# Notes
+
+The methodology from script to script varied, but testing relies bare ip addresses with host headers mostly.
+
+If the redirects exceed 30 on those requests to a live ipv6 address on vanila HTTP, it is still a fail.
+
