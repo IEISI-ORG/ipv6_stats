@@ -1,36 +1,34 @@
 [
   {
-    "domain": "dropbox.com",
-    "effective_domain": "dropbox.com",
-    "rank": 30,
-    "category": "Cloud Storage",
+    "domain": "zoom.us",
+    "effective_domain": "zoom.us",
+    "rank": 15,
+    "category": "Video Conferencing",
     "region": "Americas",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "162.125.248.18"
+      "170.114.52.2"
     ],
     "ipv6_addresses": [
-      "2620:100:6040:18::a27d:f812"
+      "2407:30c0:182::aa72:3402"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "amazon.com",
-    "effective_domain": "amazon.com",
-    "rank": 8,
-    "category": "E-commerce",
+    "domain": "walmart.com",
+    "effective_domain": "walmart.com",
+    "rank": 46,
+    "category": "Retail",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "205.251.242.103",
-      "54.239.28.85",
-      "52.94.236.248"
+      "23.48.28.163"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -57,46 +55,427 @@
     "error_message": null
   },
   {
-    "domain": "yahoo.com",
-    "effective_domain": "yahoo.com",
-    "rank": 21,
-    "category": "Portal",
+    "domain": "imdb.com",
+    "effective_domain": "imdb.com",
+    "rank": 36,
+    "category": "Entertainment",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "98.82.158.179",
+      "44.215.137.99",
+      "98.82.155.134"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "cnn.com",
+    "effective_domain": "cnn.com",
+    "rank": 23,
+    "category": "News",
     "region": "Americas",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "74.6.231.20",
-      "98.137.11.163",
-      "74.6.231.21",
-      "98.137.11.164",
-      "74.6.143.26",
-      "74.6.143.25"
+      "151.101.3.5",
+      "151.101.131.5",
+      "151.101.195.5",
+      "151.101.67.5"
     ],
     "ipv6_addresses": [
-      "2001:4998:124:1507::f000",
-      "2001:4998:124:1507::f001",
-      "2001:4998:24:120d::1:1",
-      "2001:4998:24:120d::1:0",
-      "2001:4998:44:3507::8000",
-      "2001:4998:44:3507::8001"
+      "2a04:4e42:c00::773",
+      "2a04:4e42:a00::773",
+      "2a04:4e42:600::773",
+      "2a04:4e42:800::773",
+      "2a04:4e42::773",
+      "2a04:4e42:200::773",
+      "2a04:4e42:400::773",
+      "2a04:4e42:e00::773"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "glassdoor.com",
-    "effective_domain": "glassdoor.com",
-    "rank": 60,
-    "category": "Job Reviews",
+    "domain": "uber.com",
+    "effective_domain": "uber.com",
+    "rank": 57,
+    "category": "Transportation",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "104.16.25.46",
-      "104.17.64.70"
+      "104.36.194.7"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "stackoverflow.com",
+    "effective_domain": "stackoverflow.com",
+    "rank": 29,
+    "category": "Developer Community",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "198.252.206.1"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "zillow.com",
+    "effective_domain": "zillow.com",
+    "rank": 63,
+    "category": "Real Estate",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "99.84.215.7",
+      "99.84.215.85",
+      "99.84.215.109",
+      "99.84.215.100"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "chase.com",
+    "effective_domain": "chase.com",
+    "rank": 42,
+    "category": "Banking",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "146.143.83.57",
+      "146.143.141.57",
+      "146.143.13.57"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "washingtonpost.com",
+    "effective_domain": "washingtonpost.com",
+    "rank": 68,
+    "category": "News",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.216.62",
+      "18.155.216.87",
+      "18.155.216.82",
+      "18.155.216.48"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "minecraft.net",
+    "effective_domain": "minecraft.net",
+    "rank": 108,
+    "category": "Gaming",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "13.107.246.31",
+      "13.107.213.31"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "amazon.com",
+    "effective_domain": "amazon.com",
+    "rank": 8,
+    "category": "E-commerce",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "98.82.161.185",
+      "98.87.170.71",
+      "98.87.170.74"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "spotify.com",
+    "effective_domain": "spotify.com",
+    "rank": 37,
+    "category": "Music Streaming",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "35.186.224.24"
+    ],
+    "ipv6_addresses": [
+      "2600:1901:1:7c5::"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "reddit.com",
+    "effective_domain": "reddit.com",
+    "rank": 14,
+    "category": "Forum",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "151.101.65.140",
+      "151.101.193.140",
+      "151.101.129.140",
+      "151.101.1.140"
+    ],
+    "ipv6_addresses": [
+      "2a04:4e42:200::396",
+      "2a04:4e42:400::396",
+      "2a04:4e42::396",
+      "2a04:4e42:600::396"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "airbnb.com",
+    "effective_domain": "airbnb.com",
+    "rank": 56,
+    "category": "Travel",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "166.117.189.176",
+      "166.117.27.62"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "github.com",
+    "effective_domain": "github.com",
+    "rank": 28,
+    "category": "Developer Platform",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "4.237.22.38"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "americanexpress.com",
+    "effective_domain": "americanexpress.com",
+    "rank": 45,
+    "category": "Financial Services",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.38.137.106"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "netflix.com",
+    "effective_domain": "netflix.com",
+    "rank": 10,
+    "category": "Streaming",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "44.242.13.161",
+      "52.38.7.83",
+      "44.240.158.19"
+    ],
+    "ipv6_addresses": [
+      "2600:1f14:62a:de80:69a8:7b12:8e5f:855d",
+      "2600:1f14:62a:de82:822d:a423:9e4c:da8d",
+      "2600:1f14:62a:de81:b848:82ee:2416:447e"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ebay.com",
+    "effective_domain": "ebay.com",
+    "rank": 22,
+    "category": "E-commerce",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.1.240.66",
+      "23.1.240.88"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ea.com",
+    "effective_domain": "ea.com",
+    "rank": 107,
+    "category": "Gaming",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "23.211.128.192"
+    ],
+    "ipv6_addresses": [
+      "2600:1415:4c00:280::1127",
+      "2600:1415:4c00:293::1127"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "whatsapp.com",
+    "effective_domain": "whatsapp.com",
+    "rank": 7,
+    "category": "Messaging",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "157.240.8.53"
+    ],
+    "ipv6_addresses": [
+      "2a03:2880:f219:80c5:face:b00c:0:167"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "craigslist.org",
+    "effective_domain": "craigslist.org",
+    "rank": 62,
+    "category": "Classifieds",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "208.82.237.129"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "primevideo.com",
+    "effective_domain": "primevideo.com",
+    "rank": 40,
+    "category": "Streaming",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.216.40",
+      "18.155.216.95",
+      "18.155.216.42",
+      "18.155.216.39"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "weather.com",
+    "effective_domain": "weather.com",
+    "rank": 75,
+    "category": "Weather",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "23.216.106.186"
+    ],
+    "ipv6_addresses": [
+      "2600:1415:4c00:28c::2e03",
+      "2600:1415:4c00:28f::2e03"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "costco.com",
+    "effective_domain": "costco.com",
+    "rank": 51,
+    "category": "Retail",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.211.130.9"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -113,9 +492,9 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
+      "162.159.141.96",
       "151.101.3.1",
-      "151.101.195.1",
-      "162.159.141.96"
+      "151.101.195.1"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -123,138 +502,54 @@
     "error_message": null
   },
   {
-    "domain": "imdb.com",
-    "effective_domain": "imdb.com",
-    "rank": 36,
-    "category": "Entertainment",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "52.94.228.167",
-      "52.94.225.248",
-      "52.94.237.74"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "quora.com",
-    "effective_domain": "quora.com",
-    "rank": 35,
-    "category": "Q&A Platform",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "3.90.238.26",
-      "3.221.51.54",
-      "34.192.184.6",
-      "3.229.20.136"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "airbnb.com",
-    "effective_domain": "airbnb.com",
-    "rank": 56,
-    "category": "Travel",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "166.117.27.62",
-      "166.117.189.176"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "bankofamerica.com",
-    "effective_domain": "bankofamerica.com",
-    "rank": 43,
-    "category": "Banking",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "171.161.148.150",
-      "171.159.228.150"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "reddit.com",
-    "effective_domain": "reddit.com",
-    "rank": 14,
-    "category": "Forum",
-    "region": "Americas",
+    "domain": "yandex.ru",
+    "effective_domain": "yandex.ru",
+    "rank": 88,
+    "category": "Search",
+    "region": "Europe",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "151.101.129.140",
-      "151.101.1.140",
-      "151.101.65.140",
-      "151.101.193.140"
+      "77.88.44.55",
+      "77.88.55.88",
+      "5.255.255.77"
     ],
     "ipv6_addresses": [
-      "2a04:4e42:400::396",
-      "2a04:4e42:200::396",
-      "2a04:4e42::396",
-      "2a04:4e42:600::396"
+      "2a02:6b8:a::a"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "telegram.org",
-    "effective_domain": "telegram.org",
-    "rank": 19,
-    "category": "Messaging",
-    "region": "Global",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "149.154.167.99"
-    ],
-    "ipv6_addresses": [
-      "2001:67c:4e8:f004::9"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "etsy.com",
-    "effective_domain": "etsy.com",
-    "rank": 53,
-    "category": "E-commerce",
+    "domain": "webmd.com",
+    "effective_domain": "webmd.com",
+    "rank": 65,
+    "category": "Health",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "151.101.129.224",
-      "151.101.193.224",
-      "151.101.1.224",
-      "151.101.65.224"
+      "207.231.204.56"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "dailymotion.com",
+    "effective_domain": "dailymotion.com",
+    "rank": 102,
+    "category": "Video",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "195.8.215.136"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -281,160 +576,20 @@
     "error_message": null
   },
   {
-    "domain": "netflix.com",
-    "effective_domain": "netflix.com",
-    "rank": 10,
-    "category": "Streaming",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "52.38.7.83",
-      "44.240.158.19",
-      "44.242.13.161"
-    ],
-    "ipv6_addresses": [
-      "2600:1f14:62a:de84:880a:88cc:a16:5423",
-      "2600:1f14:62a:de85:d7:e7a1:8f7d:f6f5",
-      "2600:1f14:62a:de83:c61a:d6e:18b0:65f7"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "ebay.com",
-    "effective_domain": "ebay.com",
-    "rank": 22,
-    "category": "E-commerce",
+    "domain": "discord.com",
+    "effective_domain": "discord.com",
+    "rank": 13,
+    "category": "Gaming/Chat",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.1.240.73",
-      "23.1.240.66"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "medium.com",
-    "effective_domain": "medium.com",
-    "rank": 34,
-    "category": "Blogging Platform",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "162.159.153.4",
-      "162.159.152.4"
-    ],
-    "ipv6_addresses": [
-      "2606:4700:7::a29f:9904",
-      "2606:4700:7::a29f:9804"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "cnn.com",
-    "effective_domain": "cnn.com",
-    "rank": 23,
-    "category": "News",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "151.101.131.5",
-      "151.101.3.5",
-      "151.101.67.5",
-      "151.101.195.5"
-    ],
-    "ipv6_addresses": [
-      "2a04:4e42:600::773",
-      "2a04:4e42:a00::773",
-      "2a04:4e42::773",
-      "2a04:4e42:200::773",
-      "2a04:4e42:e00::773",
-      "2a04:4e42:c00::773",
-      "2a04:4e42:800::773",
-      "2a04:4e42:400::773"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "homedepot.com",
-    "effective_domain": "homedepot.com",
-    "rank": 49,
-    "category": "Home Improvement",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "35.201.95.83"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "facebook.com",
-    "effective_domain": "facebook.com",
-    "rank": 3,
-    "category": "Social Media",
-    "region": "Global",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "157.240.8.35"
-    ],
-    "ipv6_addresses": [
-      "2a03:2880:f119:8083:face:b00c:0:25de"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "tumblr.com",
-    "effective_domain": "tumblr.com",
-    "rank": 33,
-    "category": "Blogging Platform",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "192.0.77.40"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "snapchat.com",
-    "effective_domain": "snapchat.com",
-    "rank": 18,
-    "category": "Social Media",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "34.149.46.130"
+      "162.159.128.233",
+      "162.159.135.232",
+      "162.159.136.232",
+      "162.159.138.232",
+      "162.159.137.232"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -461,64 +616,20 @@
     "error_message": null
   },
   {
-    "domain": "disneyplus.com",
-    "effective_domain": "disneyplus.com",
-    "rank": 39,
-    "category": "Streaming",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "34.110.155.89"
-    ],
-    "ipv6_addresses": [
-      "2600:1901:0:84f4::80"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "bestbuy.com",
-    "effective_domain": "bestbuy.com",
-    "rank": 48,
-    "category": "Electronics",
+    "domain": "bankofamerica.com",
+    "effective_domain": "bankofamerica.com",
+    "rank": 43,
+    "category": "Banking",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.209.89.27"
+      "3.173.21.90",
+      "3.173.23.90",
+      "3.173.22.90"
     ],
     "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "skype.com",
-    "effective_domain": "skype.com",
-    "rank": 20,
-    "category": "Video Conferencing",
-    "region": "Global",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "20.112.250.133",
-      "20.76.201.171",
-      "20.231.239.246",
-      "20.236.44.162",
-      "20.70.246.20"
-    ],
-    "ipv6_addresses": [
-      "2603:1030:c02:8::14",
-      "2603:1030:b:3::152",
-      "2603:1020:201:10::10f",
-      "2603:1030:20e:3::23c",
-      "2603:1010:3:3::5b"
-    ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -533,10 +644,27 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "151.101.194.167",
-      "151.101.2.167",
       "151.101.130.167",
-      "151.101.66.167"
+      "151.101.66.167",
+      "151.101.194.167",
+      "151.101.2.167"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "duckduckgo.com",
+    "effective_domain": "duckduckgo.com",
+    "rank": 87,
+    "category": "Search",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "20.43.111.112"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -553,8 +681,8 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.219.86.56",
-      "23.219.86.96"
+      "23.219.86.96",
+      "23.219.86.56"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -562,16 +690,52 @@
     "error_message": null
   },
   {
-    "domain": "macys.com",
-    "effective_domain": "macys.com",
-    "rank": 52,
-    "category": "Retail",
+    "domain": "yahoo.com",
+    "effective_domain": "yahoo.com",
+    "rank": 21,
+    "category": "Portal",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "74.6.143.26",
+      "74.6.143.25",
+      "98.137.11.164",
+      "98.137.11.163",
+      "74.6.231.20",
+      "74.6.231.21"
+    ],
+    "ipv6_addresses": [
+      "2001:4998:24:120d::1:1",
+      "2001:4998:124:1507::f001",
+      "2001:4998:124:1507::f000",
+      "2001:4998:44:3507::8001",
+      "2001:4998:44:3507::8000",
+      "2001:4998:24:120d::1:0"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "salesforce.com",
+    "effective_domain": "salesforce.com",
+    "rank": 26,
+    "category": "Business Software",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.211.128.252"
+      "23.1.106.133",
+      "23.1.35.132",
+      "23.1.99.130",
+      "104.109.11.129",
+      "184.25.179.132",
+      "184.31.10.133",
+      "104.109.10.129",
+      "184.31.3.130"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -579,17 +743,19 @@
     "error_message": null
   },
   {
-    "domain": "stackoverflow.com",
-    "effective_domain": "stackoverflow.com",
-    "rank": 29,
-    "category": "Developer Community",
+    "domain": "pinterest.com",
+    "effective_domain": "pinterest.com",
+    "rank": 17,
+    "category": "Social Media",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "172.64.155.249",
-      "104.18.32.7"
+      "151.101.192.84",
+      "151.101.64.84",
+      "151.101.0.84",
+      "151.101.128.84"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -597,19 +763,306 @@
     "error_message": null
   },
   {
-    "domain": "primevideo.com",
-    "effective_domain": "primevideo.com",
-    "rank": 40,
+    "domain": "quora.com",
+    "effective_domain": "quora.com",
+    "rank": 35,
+    "category": "Q&A Platform",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "34.197.23.66",
+      "3.216.97.102",
+      "98.83.166.53",
+      "54.89.119.95"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "facebook.com",
+    "effective_domain": "facebook.com",
+    "rank": 3,
+    "category": "Social Media",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "157.240.8.35"
+    ],
+    "ipv6_addresses": [
+      "2a03:2880:f119:8083:face:b00c:0:25de"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "mayoclinic.org",
+    "effective_domain": "mayoclinic.org",
+    "rank": 66,
+    "category": "Health",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "129.176.1.88"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "reuters.com",
+    "effective_domain": "reuters.com",
+    "rank": 86,
+    "category": "News",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "155.46.172.255"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "google.com",
+    "effective_domain": "google.com",
+    "rank": 1,
+    "category": "Search",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "142.250.76.110"
+    ],
+    "ipv6_addresses": [
+      "2404:6800:4006:813::200e"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "yelp.com",
+    "effective_domain": "yelp.com",
+    "rank": 61,
+    "category": "Local Reviews",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "146.75.44.116"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "adobe.com",
+    "effective_domain": "adobe.com",
+    "rank": 25,
+    "category": "Software",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "123.253.149.145",
+      "123.253.149.186"
+    ],
+    "ipv6_addresses": [
+      "2403:5800:100:28::7bfd:95ba",
+      "2403:5800:100:28::7bfd:9591"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "wellsfargo.com",
+    "effective_domain": "wellsfargo.com",
+    "rank": 44,
+    "category": "Banking",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.210.216.171",
+      "23.210.216.140"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "medium.com",
+    "effective_domain": "medium.com",
+    "rank": 34,
+    "category": "Blogging Platform",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "162.159.153.4",
+      "162.159.152.4"
+    ],
+    "ipv6_addresses": [
+      "2606:4700:7::a29f:9804",
+      "2606:4700:7::a29f:9904"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "youtube.com",
+    "effective_domain": "youtube.com",
+    "rank": 2,
+    "category": "Video",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "142.251.221.78"
+    ],
+    "ipv6_addresses": [
+      "2404:6800:4006:809::200e"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "vimeo.com",
+    "effective_domain": "vimeo.com",
+    "rank": 103,
+    "category": "Video",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "162.159.128.61",
+      "162.159.138.60"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "etsy.com",
+    "effective_domain": "etsy.com",
+    "rank": 53,
+    "category": "E-commerce",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "151.101.1.224",
+      "151.101.65.224",
+      "151.101.193.224",
+      "151.101.129.224"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "live.com",
+    "effective_domain": "live.com",
+    "rank": 80,
+    "category": "Email",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "204.79.197.212"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "roblox.com",
+    "effective_domain": "roblox.com",
+    "rank": 109,
+    "category": "Gaming",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "128.116.46.3"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "hbomax.com",
+    "effective_domain": "hbomax.com",
+    "rank": 41,
     "category": "Streaming",
     "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "18.65.3.101",
+      "18.65.3.68",
+      "18.65.3.34",
+      "18.65.3.60"
+    ],
+    "ipv6_addresses": [
+      "2600:9000:2366:3a00:4:6cac:8b40:93a1",
+      "2600:9000:2366:a600:4:6cac:8b40:93a1",
+      "2600:9000:2366:7400:4:6cac:8b40:93a1",
+      "2600:9000:2366:a800:4:6cac:8b40:93a1",
+      "2600:9000:2366:2800:4:6cac:8b40:93a1",
+      "2600:9000:2366:ba00:4:6cac:8b40:93a1",
+      "2600:9000:2366:1a00:4:6cac:8b40:93a1",
+      "2600:9000:2366:1400:4:6cac:8b40:93a1"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "glassdoor.com",
+    "effective_domain": "glassdoor.com",
+    "rank": 60,
+    "category": "Job Reviews",
+    "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "18.155.216.42",
-      "18.155.216.95",
-      "18.155.216.39",
-      "18.155.216.40"
+      "104.17.64.70",
+      "104.16.25.46"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -644,10 +1097,10 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "151.101.130.187",
-      "151.101.194.187",
       "151.101.2.187",
-      "151.101.66.187"
+      "151.101.66.187",
+      "151.101.194.187",
+      "151.101.130.187"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -655,35 +1108,16 @@
     "error_message": null
   },
   {
-    "domain": "google.com",
-    "effective_domain": "google.com",
-    "rank": 1,
-    "category": "Search",
-    "region": "Global",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "172.217.167.110"
-    ],
-    "ipv6_addresses": [
-      "2404:6800:4006:80b::200e"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "webmd.com",
-    "effective_domain": "webmd.com",
-    "rank": 65,
-    "category": "Health",
+    "domain": "bestbuy.com",
+    "effective_domain": "bestbuy.com",
+    "rank": 48,
+    "category": "Electronics",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "207.231.204.56"
+      "23.209.89.27"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -691,16 +1125,16 @@
     "error_message": null
   },
   {
-    "domain": "mayoclinic.org",
-    "effective_domain": "mayoclinic.org",
-    "rank": 66,
-    "category": "Health",
+    "domain": "tumblr.com",
+    "effective_domain": "tumblr.com",
+    "rank": 33,
+    "category": "Blogging Platform",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "129.176.1.88"
+      "192.0.77.40"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -708,77 +1142,101 @@
     "error_message": null
   },
   {
-    "domain": "github.com",
-    "effective_domain": "github.com",
-    "rank": 28,
-    "category": "Developer Platform",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "4.237.22.38"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "youtube.com",
-    "effective_domain": "youtube.com",
-    "rank": 2,
-    "category": "Video",
-    "region": "Global",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "142.250.204.14"
-    ],
-    "ipv6_addresses": [
-      "2404:6800:4006:80b::200e"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "theguardian.com",
-    "effective_domain": "theguardian.com",
-    "rank": 83,
+    "domain": "bbc.com",
+    "effective_domain": "bbc.com",
+    "rank": 81,
     "category": "News",
     "region": "Europe",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "151.101.129.111",
-      "151.101.193.111",
-      "151.101.65.111",
-      "151.101.1.111"
+      "151.101.192.81",
+      "151.101.128.81",
+      "151.101.0.81",
+      "151.101.64.81"
     ],
     "ipv6_addresses": [
-      "2a04:4e42::367",
-      "2a04:4e42:200::367",
-      "2a04:4e42:400::367",
-      "2a04:4e42:600::367"
+      "2a04:4e42:600::81",
+      "2a04:4e42:200::81",
+      "2a04:4e42:400::81",
+      "2a04:4e42::81"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "duckduckgo.com",
-    "effective_domain": "duckduckgo.com",
-    "rank": 87,
-    "category": "Search",
+    "domain": "booking.com",
+    "effective_domain": "booking.com",
+    "rank": 54,
+    "category": "Travel",
+    "region": "Global",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.216.90",
+      "18.155.216.31",
+      "18.155.216.12",
+      "18.155.216.70"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "epicgames.com",
+    "effective_domain": "epicgames.com",
+    "rank": 105,
+    "category": "Gaming",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "52.0.34.171",
+      "3.221.86.12",
+      "98.85.115.110"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "indeed.com",
+    "effective_domain": "indeed.com",
+    "rank": 59,
+    "category": "Job Search",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "162.159.130.67",
+      "162.159.129.67"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "soundcloud.com",
+    "effective_domain": "soundcloud.com",
+    "rank": 101,
+    "category": "Music",
     "region": "Europe",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "20.43.111.112"
+      "18.155.229.88",
+      "18.155.229.57",
+      "18.155.229.78",
+      "18.155.229.30"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -786,17 +1244,18 @@
     "error_message": null
   },
   {
-    "domain": "wellsfargo.com",
-    "effective_domain": "wellsfargo.com",
-    "rank": 44,
-    "category": "Banking",
+    "domain": "realtor.com",
+    "effective_domain": "realtor.com",
+    "rank": 64,
+    "category": "Real Estate",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.45.168.51",
-      "23.45.168.56"
+      "35.166.68.97",
+      "52.35.124.112",
+      "52.12.241.21"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -804,23 +1263,16 @@
     "error_message": null
   },
   {
-    "domain": "salesforce.com",
-    "effective_domain": "salesforce.com",
-    "rank": 26,
-    "category": "Business Software",
+    "domain": "shopify.com",
+    "effective_domain": "shopify.com",
+    "rank": 31,
+    "category": "E-commerce Platform",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.1.99.130",
-      "184.31.3.130",
-      "184.25.179.132",
-      "23.1.35.132",
-      "104.109.11.129",
-      "23.1.106.133",
-      "104.109.10.129",
-      "184.31.10.133"
+      "23.227.38.33"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -828,16 +1280,60 @@
     "error_message": null
   },
   {
-    "domain": "reuters.com",
-    "effective_domain": "reuters.com",
-    "rank": 86,
+    "domain": "microsoft.com",
+    "effective_domain": "microsoft.com",
+    "rank": 11,
+    "category": "Technology",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "13.107.213.31",
+      "13.107.246.31"
+    ],
+    "ipv6_addresses": [
+      "2603:1030:b:3::152",
+      "2603:1030:20e:3::23c",
+      "2603:1030:c02:8::14",
+      "2603:1010:3:3::5b",
+      "2603:1020:201:10::10f"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "twitter.com",
+    "effective_domain": "twitter.com",
+    "rank": 4,
+    "category": "Social Media",
+    "region": "Global",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "162.159.140.229"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "nytimes.com",
+    "effective_domain": "nytimes.com",
+    "rank": 67,
     "category": "News",
-    "region": "Europe",
+    "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "155.46.172.255"
+      "151.101.65.164",
+      "151.101.1.164",
+      "151.101.129.164",
+      "151.101.193.164"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -845,16 +1341,17 @@
     "error_message": null
   },
   {
-    "domain": "americanexpress.com",
-    "effective_domain": "americanexpress.com",
-    "rank": 45,
-    "category": "Financial Services",
+    "domain": "hulu.com",
+    "effective_domain": "hulu.com",
+    "rank": 38,
+    "category": "Streaming",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.38.137.106"
+      "23.1.240.66",
+      "23.55.242.144"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -881,384 +1378,140 @@
     "error_message": null
   },
   {
-    "domain": "realtor.com",
-    "effective_domain": "realtor.com",
-    "rank": 64,
-    "category": "Real Estate",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "44.241.47.186",
-      "34.213.16.56",
-      "44.239.119.117"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "discord.com",
-    "effective_domain": "discord.com",
-    "rank": 13,
-    "category": "Gaming/Chat",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "162.159.137.232",
-      "162.159.136.232",
-      "162.159.138.232",
-      "162.159.128.233",
-      "162.159.135.232"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "whatsapp.com",
-    "effective_domain": "whatsapp.com",
-    "rank": 7,
-    "category": "Messaging",
-    "region": "Global",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "157.240.8.53"
-    ],
-    "ipv6_addresses": [
-      "2a03:2880:f219:80c5:face:b00c:0:167"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "adobe.com",
-    "effective_domain": "adobe.com",
-    "rank": 25,
-    "category": "Software",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "123.253.149.58",
-      "123.253.149.57"
-    ],
-    "ipv6_addresses": [
-      "2403:5800:100:28::7bfd:9591",
-      "2403:5800:100:28::7bfd:95ba"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "spotify.com",
-    "effective_domain": "spotify.com",
-    "rank": 37,
-    "category": "Music Streaming",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "35.186.224.24"
-    ],
-    "ipv6_addresses": [
-      "2600:1901:1:7c5::"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "hbomax.com",
-    "effective_domain": "hbomax.com",
-    "rank": 41,
-    "category": "Streaming",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "3.168.86.36",
-      "3.168.86.85",
-      "3.168.86.47",
-      "3.168.86.123"
-    ],
-    "ipv6_addresses": [
-      "2600:9000:2804:1200:4:6cac:8b40:93a1",
-      "2600:9000:2804:9200:4:6cac:8b40:93a1",
-      "2600:9000:2804:e400:4:6cac:8b40:93a1",
-      "2600:9000:2804:2c00:4:6cac:8b40:93a1",
-      "2600:9000:2804:dc00:4:6cac:8b40:93a1",
-      "2600:9000:2804:8e00:4:6cac:8b40:93a1",
-      "2600:9000:2804:5600:4:6cac:8b40:93a1",
-      "2600:9000:2804:4e00:4:6cac:8b40:93a1"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "twitter.com",
-    "effective_domain": "twitter.com",
-    "rank": 4,
-    "category": "Social Media",
-    "region": "Global",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "162.159.140.229",
-      "172.66.0.227"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "chase.com",
-    "effective_domain": "chase.com",
-    "rank": 42,
-    "category": "Banking",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "146.143.13.57",
-      "146.143.83.57",
-      "146.143.141.57"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "shopify.com",
-    "effective_domain": "shopify.com",
-    "rank": 31,
-    "category": "E-commerce Platform",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "23.227.38.33"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "hulu.com",
-    "effective_domain": "hulu.com",
-    "rank": 38,
-    "category": "Streaming",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "23.219.86.96",
-      "23.219.86.91"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "zoom.us",
-    "effective_domain": "zoom.us",
-    "rank": 15,
-    "category": "Video Conferencing",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "170.114.52.2"
-    ],
-    "ipv6_addresses": [
-      "2407:30c0:182::aa72:3402"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "bbc.com",
-    "effective_domain": "bbc.com",
-    "rank": 81,
+    "domain": "theguardian.com",
+    "effective_domain": "theguardian.com",
+    "rank": 83,
     "category": "News",
     "region": "Europe",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "151.101.0.81",
-      "151.101.64.81",
-      "151.101.192.81",
-      "151.101.128.81"
+      "151.101.65.111",
+      "151.101.193.111",
+      "151.101.129.111",
+      "151.101.1.111"
     ],
     "ipv6_addresses": [
-      "2a04:4e42:600::81",
-      "2a04:4e42:200::81",
-      "2a04:4e42::81",
-      "2a04:4e42:400::81"
+      "2a04:4e42:600::367",
+      "2a04:4e42::367",
+      "2a04:4e42:400::367",
+      "2a04:4e42:200::367"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "pinterest.com",
-    "effective_domain": "pinterest.com",
-    "rank": 17,
-    "category": "Social Media",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "151.101.0.84",
-      "151.101.64.84",
-      "151.101.128.84",
-      "151.101.192.84"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "microsoft.com",
-    "effective_domain": "microsoft.com",
-    "rank": 11,
-    "category": "Technology",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "13.107.213.31",
-      "13.107.246.31"
-    ],
-    "ipv6_addresses": [
-      "2603:1020:201:10::10f",
-      "2603:1030:c02:8::14",
-      "2603:1030:20e:3::23c",
-      "2603:1030:b:3::152",
-      "2603:1010:3:3::5b"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "ea.com",
-    "effective_domain": "ea.com",
-    "rank": 107,
-    "category": "Gaming",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "23.211.128.192"
-    ],
-    "ipv6_addresses": [
-      "2600:1415:4c00:293::1127",
-      "2600:1415:4c00:280::1127"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "washingtonpost.com",
-    "effective_domain": "washingtonpost.com",
-    "rank": 68,
-    "category": "News",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "23.214.34.92"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "booking.com",
-    "effective_domain": "booking.com",
-    "rank": 54,
+    "domain": "expedia.com",
+    "effective_domain": "expedia.com",
+    "rank": 55,
     "category": "Travel",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.52.247.119"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "dropbox.com",
+    "effective_domain": "dropbox.com",
+    "rank": 30,
+    "category": "Cloud Storage",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "162.125.248.18"
+    ],
+    "ipv6_addresses": [
+      "2620:100:6040:18::a27d:f812"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "homedepot.com",
+    "effective_domain": "homedepot.com",
+    "rank": 49,
+    "category": "Home Improvement",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "35.201.95.83"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "disneyplus.com",
+    "effective_domain": "disneyplus.com",
+    "rank": 39,
+    "category": "Streaming",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "34.110.155.89"
+    ],
+    "ipv6_addresses": [
+      "2600:1901:0:84f4::80"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "skype.com",
+    "effective_domain": "skype.com",
+    "rank": 20,
+    "category": "Video Conferencing",
     "region": "Global",
-    "connectivity_status": "ipv4_only",
+    "connectivity_status": "dual_stack",
     "has_ipv4": true,
-    "has_ipv6": false,
+    "has_ipv6": true,
     "ipv4_addresses": [
-      "18.155.216.12",
-      "18.155.216.31",
-      "18.155.216.90",
-      "18.155.216.70"
+      "20.231.239.246",
+      "20.70.246.20",
+      "20.76.201.171",
+      "20.112.250.133",
+      "20.236.44.162"
     ],
-    "ipv6_addresses": [],
+    "ipv6_addresses": [
+      "2603:1030:20e:3::23c",
+      "2603:1010:3:3::5b",
+      "2603:1030:c02:8::14",
+      "2603:1020:201:10::10f",
+      "2603:1030:b:3::152"
+    ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "telegraph.co.uk",
-    "effective_domain": "telegraph.co.uk",
-    "rank": 85,
-    "category": "News",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "3.168.86.65",
-      "3.168.86.24",
-      "3.168.86.124",
-      "3.168.86.2"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "lyft.com",
-    "effective_domain": "lyft.com",
-    "rank": 58,
-    "category": "Transportation",
+    "domain": "lowes.com",
+    "effective_domain": "lowes.com",
+    "rank": 50,
+    "category": "Home Improvement",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "18.155.216.36",
-      "18.155.216.5",
-      "18.155.216.77",
-      "18.155.216.25"
+      "23.63.232.19"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -1266,17 +1519,16 @@
     "error_message": null
   },
   {
-    "domain": "indeed.com",
-    "effective_domain": "indeed.com",
-    "rank": 59,
-    "category": "Job Search",
+    "domain": "macys.com",
+    "effective_domain": "macys.com",
+    "rank": 52,
+    "category": "Retail",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "162.159.129.67",
-      "162.159.130.67"
+      "184.31.253.25"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -1294,353 +1546,6 @@
     "has_ipv6": false,
     "ipv4_addresses": [
       "34.102.163.158"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "bbc.co.uk",
-    "effective_domain": "bbc.co.uk",
-    "rank": 82,
-    "category": "News",
-    "region": "Europe",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "151.101.0.81",
-      "151.101.192.81",
-      "151.101.64.81",
-      "151.101.128.81"
-    ],
-    "ipv6_addresses": [
-      "2a04:4e42:400::81",
-      "2a04:4e42:200::81",
-      "2a04:4e42:600::81",
-      "2a04:4e42::81"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "msn.com",
-    "effective_domain": "msn.com",
-    "rank": 78,
-    "category": "Portal",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "204.79.197.219"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "yandex.ru",
-    "effective_domain": "yandex.ru",
-    "rank": 88,
-    "category": "Search",
-    "region": "Europe",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "77.88.55.88",
-      "5.255.255.77",
-      "77.88.44.55"
-    ],
-    "ipv6_addresses": [
-      "2a02:6b8:a::a"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "epicgames.com",
-    "effective_domain": "epicgames.com",
-    "rank": 105,
-    "category": "Gaming",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "44.193.146.34",
-      "3.210.15.223",
-      "50.19.242.88"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "costco.com",
-    "effective_domain": "costco.com",
-    "rank": 51,
-    "category": "Retail",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "23.211.130.9"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "uber.com",
-    "effective_domain": "uber.com",
-    "rank": 57,
-    "category": "Transportation",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "69.48.216.7"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "roblox.com",
-    "effective_domain": "roblox.com",
-    "rank": 109,
-    "category": "Gaming",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "128.116.51.3"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "weather.com",
-    "effective_domain": "weather.com",
-    "rank": 75,
-    "category": "Weather",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "23.216.106.186"
-    ],
-    "ipv6_addresses": [
-      "2600:1415:4c00:28c::2e03",
-      "2600:1415:4c00:28f::2e03"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "dailymail.co.uk",
-    "effective_domain": "dailymail.co.uk",
-    "rank": 84,
-    "category": "News",
-    "region": "Europe",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "23.211.129.2"
-    ],
-    "ipv6_addresses": [
-      "2600:1415:4c00:684::16c2",
-      "2600:1415:4c00:69b::16c2"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "dailymotion.com",
-    "effective_domain": "dailymotion.com",
-    "rank": 102,
-    "category": "Video",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "195.8.215.136"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "soundcloud.com",
-    "effective_domain": "soundcloud.com",
-    "rank": 101,
-    "category": "Music",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.155.229.57",
-      "18.155.229.30",
-      "18.155.229.88",
-      "18.155.229.78"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "deezer.com",
-    "effective_domain": "deezer.com",
-    "rank": 100,
-    "category": "Music",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.155.229.106",
-      "18.155.229.109",
-      "18.155.229.129",
-      "18.155.229.23"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "live.com",
-    "effective_domain": "live.com",
-    "rank": 80,
-    "category": "Email",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "204.79.197.212"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "ubisoft.com",
-    "effective_domain": "ubisoft.com",
-    "rank": 106,
-    "category": "Gaming",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.244.214.47",
-      "18.244.214.10",
-      "18.244.214.54",
-      "18.244.214.70"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "zillow.com",
-    "effective_domain": "zillow.com",
-    "rank": 63,
-    "category": "Real Estate",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.238.192.37",
-      "18.238.192.59",
-      "18.238.192.25",
-      "18.238.192.54"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "kayak.com",
-    "effective_domain": "kayak.com",
-    "rank": 95,
-    "category": "Travel",
-    "region": "Global",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "151.101.193.29",
-      "151.101.1.29",
-      "151.101.129.29",
-      "151.101.65.29"
-    ],
-    "ipv6_addresses": [
-      "2a04:4e42:400::285",
-      "2a04:4e42:600::285",
-      "2a04:4e42::285",
-      "2a04:4e42:200::285"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "yelp.com",
-    "effective_domain": "yelp.com",
-    "rank": 61,
-    "category": "Local Reviews",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "199.232.136.116"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "minecraft.net",
-    "effective_domain": "minecraft.net",
-    "rank": 108,
-    "category": "Gaming",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "13.107.213.31",
-      "13.107.246.31"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -1668,16 +1573,16 @@
     "error_message": null
   },
   {
-    "domain": "lowes.com",
-    "effective_domain": "lowes.com",
-    "rank": 50,
-    "category": "Home Improvement",
+    "domain": "msn.com",
+    "effective_domain": "msn.com",
+    "rank": 78,
+    "category": "Portal",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.63.232.19"
+      "204.79.197.219"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -1685,142 +1590,21 @@
     "error_message": null
   },
   {
-    "domain": "amazon.de",
-    "effective_domain": "amazon.de",
-    "rank": 112,
-    "category": "E-commerce",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "52.95.120.34",
-      "54.239.39.102",
-      "176.32.108.185"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "amazon.co.uk",
-    "effective_domain": "amazon.co.uk",
-    "rank": 113,
-    "category": "E-commerce",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "54.239.34.171",
-      "54.239.33.58",
-      "178.236.7.220"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "leboncoin.fr",
-    "effective_domain": "leboncoin.fr",
-    "rank": 115,
-    "category": "Classifieds",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.64.18.34",
-      "18.64.18.60",
-      "18.64.18.39",
-      "18.64.18.49"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "nytimes.com",
-    "effective_domain": "nytimes.com",
-    "rank": 67,
-    "category": "News",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "151.101.193.164",
-      "151.101.1.164",
-      "151.101.65.164",
-      "151.101.129.164"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "gumtree.com",
-    "effective_domain": "gumtree.com",
-    "rank": 117,
-    "category": "Classifieds",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "34.111.18.115"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "nba.com",
-    "effective_domain": "nba.com",
-    "rank": 73,
-    "category": "Sports",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "23.45.168.41",
-      "23.45.168.43"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "zalando.com",
-    "effective_domain": "zalando.com",
-    "rank": 110,
-    "category": "E-commerce",
+    "domain": "trivago.com",
+    "effective_domain": "trivago.com",
+    "rank": 94,
+    "category": "Travel",
     "region": "Europe",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "18.155.229.51",
-      "18.155.229.71",
-      "18.155.229.18",
-      "18.155.229.16"
+      "23.219.86.83",
+      "23.219.86.89"
     ],
     "ipv6_addresses": [
-      "2600:9000:246a:f400:14:68:5500:93a1",
-      "2600:9000:246a:7200:14:68:5500:93a1",
-      "2600:9000:246a:6400:14:68:5500:93a1",
-      "2600:9000:246a:5000:14:68:5500:93a1",
-      "2600:9000:246a:4c00:14:68:5500:93a1",
-      "2600:9000:246a:5e00:14:68:5500:93a1",
-      "2600:9000:246a:ae00:14:68:5500:93a1",
-      "2600:9000:246a:3000:14:68:5500:93a1"
+      "2600:1415:4c00::17db:5659",
+      "2600:1415:4c00::17db:5653"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
@@ -1836,10 +1620,10 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "13.249.74.104",
-      "13.249.74.84",
-      "13.249.74.52",
-      "13.249.74.73"
+      "18.164.154.67",
+      "18.164.154.118",
+      "18.164.154.8",
+      "18.164.154.114"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -1847,17 +1631,19 @@
     "error_message": null
   },
   {
-    "domain": "easyjet.com",
-    "effective_domain": "easyjet.com",
-    "rank": 98,
-    "category": "Airlines",
-    "region": "Europe",
+    "domain": "nfl.com",
+    "effective_domain": "nfl.com",
+    "rank": 72,
+    "category": "Sports",
+    "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.219.86.73",
-      "23.219.86.89"
+      "151.101.1.153",
+      "151.101.65.153",
+      "151.101.129.153",
+      "151.101.193.153"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -1883,18 +1669,46 @@
     "error_message": null
   },
   {
-    "domain": "amazon.fr",
-    "effective_domain": "amazon.fr",
-    "rank": 114,
+    "domain": "zalando.com",
+    "effective_domain": "zalando.com",
+    "rank": 110,
     "category": "E-commerce",
+    "region": "Europe",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "18.155.229.51",
+      "18.155.229.18",
+      "18.155.229.71",
+      "18.155.229.16"
+    ],
+    "ipv6_addresses": [
+      "2600:9000:246a:ce00:14:68:5500:93a1",
+      "2600:9000:246a:b000:14:68:5500:93a1",
+      "2600:9000:246a:400:14:68:5500:93a1",
+      "2600:9000:246a:1a00:14:68:5500:93a1",
+      "2600:9000:246a:7200:14:68:5500:93a1",
+      "2600:9000:246a:ac00:14:68:5500:93a1",
+      "2600:9000:246a:6e00:14:68:5500:93a1",
+      "2600:9000:246a:7c00:14:68:5500:93a1"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "santander.com",
+    "effective_domain": "santander.com",
+    "rank": 130,
+    "category": "Banking",
     "region": "Europe",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "54.239.33.91",
-      "52.95.116.113",
-      "52.95.120.39"
+      "45.223.164.248",
+      "45.223.176.248"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -1902,66 +1716,151 @@
     "error_message": null
   },
   {
-    "domain": "trivago.com",
-    "effective_domain": "trivago.com",
-    "rank": 94,
-    "category": "Travel",
+    "domain": "dailymail.co.uk",
+    "effective_domain": "dailymail.co.uk",
+    "rank": 84,
+    "category": "News",
     "region": "Europe",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "23.219.86.83",
-      "23.219.86.89"
+      "23.211.129.2"
     ],
     "ipv6_addresses": [
-      "2600:1415:4c00::17db:5653",
-      "2600:1415:4c00::17db:5659"
+      "2600:1415:8:28b::16c2",
+      "2600:1415:8:29d::16c2"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "espn.com",
-    "effective_domain": "espn.com",
-    "rank": 71,
-    "category": "Sports",
-    "region": "Americas",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "18.155.229.62",
-      "18.155.229.112",
-      "18.155.229.64",
-      "18.155.229.79"
-    ],
-    "ipv6_addresses": [
-      "2600:9000:246a:5c00:d:ac18:e2c0:93a1",
-      "2600:9000:246a:9800:d:ac18:e2c0:93a1",
-      "2600:9000:246a:3c00:d:ac18:e2c0:93a1",
-      "2600:9000:246a:5800:d:ac18:e2c0:93a1",
-      "2600:9000:246a:1600:d:ac18:e2c0:93a1",
-      "2600:9000:246a:5a00:d:ac18:e2c0:93a1",
-      "2600:9000:246a:4c00:d:ac18:e2c0:93a1",
-      "2600:9000:246a:ee00:d:ac18:e2c0:93a1"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "lufthansa.com",
-    "effective_domain": "lufthansa.com",
-    "rank": 99,
-    "category": "Airlines",
+    "domain": "amazon.co.uk",
+    "effective_domain": "amazon.co.uk",
+    "rank": 113,
+    "category": "E-commerce",
     "region": "Europe",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "20.101.251.232"
+      "3.253.181.192",
+      "3.254.236.223",
+      "3.253.170.23"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "telegraph.co.uk",
+    "effective_domain": "telegraph.co.uk",
+    "rank": 85,
+    "category": "News",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.154.132.31",
+      "18.154.132.63",
+      "18.154.132.76",
+      "18.154.132.88"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "baidu.com",
+    "effective_domain": "baidu.com",
+    "rank": 141,
+    "category": "Search",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "111.63.65.103",
+      "111.63.65.247",
+      "110.242.74.102",
+      "124.237.177.164"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "leboncoin.fr",
+    "effective_domain": "leboncoin.fr",
+    "rank": 115,
+    "category": "Classifieds",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "3.165.75.16",
+      "3.165.75.100",
+      "3.165.75.9",
+      "3.165.75.93"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "telegram.org",
+    "effective_domain": "telegram.org",
+    "rank": 19,
+    "category": "Messaging",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "149.154.167.99"
+    ],
+    "ipv6_addresses": [
+      "2001:67c:4e8:f004::9"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "snapchat.com",
+    "effective_domain": "snapchat.com",
+    "rank": 18,
+    "category": "Social Media",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "34.149.46.130"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "barclays.co.uk",
+    "effective_domain": "barclays.co.uk",
+    "rank": 132,
+    "category": "Banking",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.62.242.92"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -1986,36 +1885,17 @@
     "error_message": null
   },
   {
-    "domain": "foxnews.com",
-    "effective_domain": "foxnews.com",
-    "rank": 70,
-    "category": "News",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "184.31.253.155"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "nfl.com",
-    "effective_domain": "nfl.com",
-    "rank": 72,
+    "domain": "nba.com",
+    "effective_domain": "nba.com",
+    "rank": 73,
     "category": "Sports",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "151.101.193.153",
-      "151.101.129.153",
-      "151.101.65.153",
-      "151.101.1.153"
+      "23.45.168.41",
+      "23.45.168.43"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2023,17 +1903,19 @@
     "error_message": null
   },
   {
-    "domain": "vimeo.com",
-    "effective_domain": "vimeo.com",
-    "rank": 103,
-    "category": "Video",
+    "domain": "lyft.com",
+    "effective_domain": "lyft.com",
+    "rank": 58,
+    "category": "Transportation",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "162.159.138.60",
-      "162.159.128.61"
+      "18.155.216.36",
+      "18.155.216.77",
+      "18.155.216.5",
+      "18.155.216.25"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2058,17 +1940,145 @@
     "error_message": null
   },
   {
-    "domain": "baidu.com",
-    "effective_domain": "baidu.com",
-    "rank": 141,
-    "category": "Search",
-    "region": "Asia",
+    "domain": "kayak.com",
+    "effective_domain": "kayak.com",
+    "rank": 95,
+    "category": "Travel",
+    "region": "Global",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "151.101.193.29",
+      "151.101.65.29",
+      "151.101.1.29",
+      "151.101.129.29"
+    ],
+    "ipv6_addresses": [
+      "2a04:4e42:200::285",
+      "2a04:4e42:400::285",
+      "2a04:4e42::285",
+      "2a04:4e42:600::285"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "deezer.com",
+    "effective_domain": "deezer.com",
+    "rank": 100,
+    "category": "Music",
+    "region": "Europe",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "220.181.7.203",
-      "39.156.70.37"
+      "18.155.229.129",
+      "18.155.229.109",
+      "18.155.229.106",
+      "18.155.229.23"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ubisoft.com",
+    "effective_domain": "ubisoft.com",
+    "rank": 106,
+    "category": "Gaming",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.244.214.70",
+      "18.244.214.10",
+      "18.244.214.54",
+      "18.244.214.47"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "steam.com",
+    "effective_domain": "steam.com",
+    "rank": 104,
+    "category": "Gaming",
+    "region": "Americas",
+    "connectivity_status": "no_connectivity",
+    "has_ipv4": false,
+    "has_ipv6": false,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "espn.com",
+    "effective_domain": "espn.com",
+    "rank": 71,
+    "category": "Sports",
+    "region": "Americas",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "18.155.229.64",
+      "18.155.229.112",
+      "18.155.229.79",
+      "18.155.229.62"
+    ],
+    "ipv6_addresses": [
+      "2600:9000:246a:7000:d:ac18:e2c0:93a1",
+      "2600:9000:246a:2800:d:ac18:e2c0:93a1",
+      "2600:9000:246a:9c00:d:ac18:e2c0:93a1",
+      "2600:9000:246a:1e00:d:ac18:e2c0:93a1",
+      "2600:9000:246a:c200:d:ac18:e2c0:93a1",
+      "2600:9000:246a:6e00:d:ac18:e2c0:93a1",
+      "2600:9000:246a:1000:d:ac18:e2c0:93a1",
+      "2600:9000:246a:c00:d:ac18:e2c0:93a1"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "olx.com",
+    "effective_domain": "olx.com",
+    "rank": 118,
+    "category": "Classifieds",
+    "region": "Global",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "52.84.20.126",
+      "52.84.20.20",
+      "52.84.20.75",
+      "52.84.20.82"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "lufthansa.com",
+    "effective_domain": "lufthansa.com",
+    "rank": 99,
+    "category": "Airlines",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "20.101.251.232"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2093,93 +2103,6 @@
     "error_message": null
   },
   {
-    "domain": "olx.com",
-    "effective_domain": "olx.com",
-    "rank": 118,
-    "category": "Classifieds",
-    "region": "Global",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.155.202.9",
-      "18.155.202.10",
-      "18.155.202.78",
-      "18.155.202.51"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "ryanair.com",
-    "effective_domain": "ryanair.com",
-    "rank": 97,
-    "category": "Airlines",
-    "region": "Europe",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "216.137.39.46",
-      "216.137.39.91",
-      "216.137.39.79",
-      "216.137.39.43"
-    ],
-    "ipv6_addresses": [
-      "2600:9000:2365:8800:13:9354:3800:93a1",
-      "2600:9000:2365:2600:13:9354:3800:93a1",
-      "2600:9000:2365:400:13:9354:3800:93a1",
-      "2600:9000:2365:de00:13:9354:3800:93a1",
-      "2600:9000:2365:c00:13:9354:3800:93a1",
-      "2600:9000:2365:a00:13:9354:3800:93a1",
-      "2600:9000:2365:f200:13:9354:3800:93a1",
-      "2600:9000:2365:c800:13:9354:3800:93a1"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "rabobank.com",
-    "effective_domain": "rabobank.com",
-    "rank": 137,
-    "category": "Banking",
-    "region": "Europe",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "23.223.20.168"
-    ],
-    "ipv6_addresses": [
-      "2600:1415:4c00::17db:5639",
-      "2600:1415:4c00::17db:5631"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "santander.com",
-    "effective_domain": "santander.com",
-    "rank": 130,
-    "category": "Banking",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "45.223.176.248",
-      "45.223.164.248"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
     "domain": "bbva.com",
     "effective_domain": "bbva.com",
     "rank": 131,
@@ -2189,9 +2112,29 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "184.24.221.58"
+      "23.216.119.165"
     ],
     "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "bnpparibas.com",
+    "effective_domain": "bnpparibas.com",
+    "rank": 128,
+    "category": "Banking",
+    "region": "Europe",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "23.62.242.13"
+    ],
+    "ipv6_addresses": [
+      "2600:1415:8:28c::176e",
+      "2600:1415:8:294::176e"
+    ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -2206,12 +2149,12 @@
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "172.64.152.40",
-      "104.18.35.216"
+      "104.18.35.216",
+      "172.64.152.40"
     ],
     "ipv6_addresses": [
-      "2606:4700:440d::6812:23d8",
-      "2a06:98c1:3106::ac40:9828"
+      "2a06:98c1:3106::ac40:9828",
+      "2606:4700:440d::6812:23d8"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
@@ -2235,16 +2178,37 @@
     "error_message": null
   },
   {
-    "domain": "walmart.com",
-    "effective_domain": "walmart.com",
-    "rank": 46,
-    "category": "Retail",
+    "domain": "rabobank.com",
+    "effective_domain": "rabobank.com",
+    "rank": 137,
+    "category": "Banking",
+    "region": "Europe",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "23.45.168.35",
+      "23.45.168.56"
+    ],
+    "ipv6_addresses": [
+      "2600:1415:8::6875:b55b",
+      "2600:1415:8::6875:b561"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "usatoday.com",
+    "effective_domain": "usatoday.com",
+    "rank": 77,
+    "category": "News",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "2.18.224.189"
+      "146.75.46.62"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2252,16 +2216,70 @@
     "error_message": null
   },
   {
-    "domain": "expedia.com",
-    "effective_domain": "expedia.com",
-    "rank": 55,
-    "category": "Travel",
+    "domain": "gumtree.com",
+    "effective_domain": "gumtree.com",
+    "rank": 117,
+    "category": "Classifieds",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "34.111.18.115"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "aol.com",
+    "effective_domain": "aol.com",
+    "rank": 79,
+    "category": "Portal",
     "region": "Americas",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.52.247.119"
+      "13.248.158.7",
+      "76.223.84.192"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "otto.de",
+    "effective_domain": "otto.de",
+    "rank": 111,
+    "category": "E-commerce",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.198.118.80",
+      "18.197.232.187",
+      "52.57.22.221"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "foxnews.com",
+    "effective_domain": "foxnews.com",
+    "rank": 70,
+    "category": "News",
+    "region": "Americas",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.41.37.149"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2278,7 +2296,132 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "2.18.224.69"
+      "23.208.9.21"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ubs.com",
+    "effective_domain": "ubs.com",
+    "rank": 135,
+    "category": "Banking",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "193.134.111.71"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "easyjet.com",
+    "effective_domain": "easyjet.com",
+    "rank": 98,
+    "category": "Airlines",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "23.219.86.73",
+      "23.219.86.89"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "mercari.com",
+    "effective_domain": "mercari.com",
+    "rank": 170,
+    "category": "E-commerce",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.216.85",
+      "18.155.216.128",
+      "18.155.216.61",
+      "18.155.216.11"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ryanair.com",
+    "effective_domain": "ryanair.com",
+    "rank": 97,
+    "category": "Airlines",
+    "region": "Europe",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "216.137.39.46",
+      "216.137.39.91",
+      "216.137.39.43",
+      "216.137.39.79"
+    ],
+    "ipv6_addresses": [
+      "2600:9000:2365:e400:13:9354:3800:93a1",
+      "2600:9000:2365:2600:13:9354:3800:93a1",
+      "2600:9000:2365:7a00:13:9354:3800:93a1",
+      "2600:9000:2365:8400:13:9354:3800:93a1",
+      "2600:9000:2365:3600:13:9354:3800:93a1",
+      "2600:9000:2365:3e00:13:9354:3800:93a1",
+      "2600:9000:2365:f000:13:9354:3800:93a1",
+      "2600:9000:2365:4400:13:9354:3800:93a1"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ctrip.com",
+    "effective_domain": "ctrip.com",
+    "rank": 159,
+    "category": "Travel",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "117.135.161.18",
+      "211.95.54.121",
+      "117.131.27.7",
+      "220.196.164.16",
+      "114.80.56.121",
+      "180.163.115.16"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "amazon.fr",
+    "effective_domain": "amazon.fr",
+    "rank": 114,
+    "category": "E-commerce",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "3.254.236.66",
+      "3.253.169.23",
+      "3.254.237.67"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2303,343 +2446,21 @@
     "error_message": null
   },
   {
-    "domain": "aol.com",
-    "effective_domain": "aol.com",
-    "rank": 79,
-    "category": "Portal",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "76.223.84.192",
-      "13.248.158.7"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "bnpparibas.com",
-    "effective_domain": "bnpparibas.com",
-    "rank": 128,
-    "category": "Banking",
-    "region": "Europe",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "23.62.242.13"
-    ],
-    "ipv6_addresses": [
-      "2600:1415:4c00:69d::176e",
-      "2600:1415:4c00:697::176e"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "craigslist.org",
-    "effective_domain": "craigslist.org",
-    "rank": 62,
-    "category": "Classifieds",
-    "region": "Americas",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "208.82.237.129"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "mercari.com",
-    "effective_domain": "mercari.com",
-    "rank": 170,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.155.216.128",
-      "18.155.216.61",
-      "18.155.216.85",
-      "18.155.216.11"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "ok.ru",
-    "effective_domain": "ok.ru",
-    "rank": 91,
+    "domain": "douyin.com",
+    "effective_domain": "douyin.com",
+    "rank": 147,
     "category": "Social Media",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "217.20.155.13",
-      "5.61.23.11",
-      "217.20.147.1"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "vk.com",
-    "effective_domain": "vk.com",
-    "rank": 90,
-    "category": "Social Media",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "87.240.132.72",
-      "87.240.137.164",
-      "87.240.129.133",
-      "87.240.132.67",
-      "93.186.225.194",
-      "87.240.132.78"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "taobao.com",
-    "effective_domain": "taobao.com",
-    "rank": 143,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "59.82.43.238",
-      "59.82.121.163",
-      "59.82.43.239",
-      "59.82.122.165",
-      "59.82.43.234",
-      "59.82.44.240",
-      "59.82.122.130",
-      "59.82.122.140"
-    ],
-    "ipv6_addresses": [
-      "2408:4001:f00::3c",
-      "2408:4001:f00::87",
-      "2401:b180:7003::25",
-      "2401:b180:7003::aa",
-      "2401:b180:7003::ed",
-      "2401:b180:7003::6b",
-      "2408:4001:f10::6f",
-      "2408:4001:f10::5e"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "tmall.com",
-    "effective_domain": "tmall.com",
-    "rank": 144,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "59.82.120.115",
-      "59.82.133.135",
-      "59.82.133.133",
-      "59.82.44.45",
-      "59.82.43.82",
-      "59.82.133.159",
-      "59.82.44.30",
-      "59.82.44.54"
-    ],
-    "ipv6_addresses": [
-      "2401:b180:7003::27f",
-      "2401:b180:7003::101",
-      "2408:4001:f00::28f",
-      "2401:b180:7003::2bf",
-      "2408:4001:f00::1fb",
-      "2408:4001:f10::e2",
-      "2408:4001:f10::5c",
-      "2401:b180:7003::2d3"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "amazon.co.jp",
-    "effective_domain": "amazon.co.jp",
-    "rank": 169,
-    "category": "E-commerce",
     "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "52.119.161.5",
-      "52.119.168.48",
-      "52.119.164.121"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "dianping.com",
-    "effective_domain": "dianping.com",
-    "rank": 158,
-    "category": "Reviews",
-    "region": "Asia",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "202.90.108.5"
-    ],
-    "ipv6_addresses": [
-      "2405:1480:1000:3::3"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "coupang.com",
-    "effective_domain": "coupang.com",
-    "rank": 174,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.155.229.4",
-      "18.155.229.74",
-      "18.155.229.62",
-      "18.155.229.82"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "hsbc.com",
-    "effective_domain": "hsbc.com",
-    "rank": 133,
-    "category": "Banking",
-    "region": "Global",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "91.214.6.62",
-      "193.108.75.62"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "paytm.com",
-    "effective_domain": "paytm.com",
-    "rank": 180,
-    "category": "Finance",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "172.65.64.51",
-      "172.65.64.50"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "steam.com",
-    "effective_domain": "steam.com",
-    "rank": 104,
-    "category": "Gaming",
-    "region": "Americas",
-    "connectivity_status": "no_connectivity",
-    "has_ipv4": false,
-    "has_ipv6": false,
-    "ipv4_addresses": [],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "amazon.in",
-    "effective_domain": "amazon.in",
-    "rank": 178,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "52.95.120.67",
-      "54.239.33.92",
-      "52.95.116.115"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "flipkart.com",
-    "effective_domain": "flipkart.com",
-    "rank": 177,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "103.243.32.90"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "pinduoduo.com",
-    "effective_domain": "pinduoduo.com",
-    "rank": 156,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "124.156.123.148"
+      "122.14.229.64",
+      "122.14.236.45",
+      "101.126.56.164",
+      "101.126.56.165",
+      "122.14.229.58",
+      "122.14.229.63"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2656,35 +2477,35 @@
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "202.108.14.121",
+      "202.108.14.124",
       "202.108.14.125",
       "202.108.14.120",
-      "202.108.14.124"
+      "202.108.14.121"
     ],
     "ipv6_addresses": [
-      "2408:8706:0:4997:202:108:14:120",
       "2408:8706:0:4997:202:108:14:121",
       "2408:8706:0:4997:202:108:14:124",
-      "2408:8706:0:4997:202:108:14:125"
+      "2408:8706:0:4997:202:108:14:125",
+      "2408:8706:0:4997:202:108:14:120"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "naver.com",
-    "effective_domain": "naver.com",
-    "rank": 171,
-    "category": "Search",
+    "domain": "coupang.com",
+    "effective_domain": "coupang.com",
+    "rank": 174,
+    "category": "E-commerce",
     "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "223.130.200.219",
-      "223.130.200.236",
-      "223.130.192.247",
-      "223.130.192.248"
+      "18.155.229.62",
+      "18.155.229.82",
+      "18.155.229.4",
+      "18.155.229.74"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2692,16 +2513,116 @@
     "error_message": null
   },
   {
-    "domain": "usatoday.com",
-    "effective_domain": "usatoday.com",
-    "rank": 77,
-    "category": "News",
-    "region": "Americas",
+    "domain": "myntra.com",
+    "effective_domain": "myntra.com",
+    "rank": 179,
+    "category": "E-commerce",
+    "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "151.101.42.62"
+      "184.31.253.92"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "alipay.com",
+    "effective_domain": "alipay.com",
+    "rank": 161,
+    "category": "Finance",
+    "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "110.75.130.45",
+      "110.76.8.255"
+    ],
+    "ipv6_addresses": [
+      "2400:b200:1005:3030::27c",
+      "2400:b200:1005:3030::247"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "hsbc.com",
+    "effective_domain": "hsbc.com",
+    "rank": 133,
+    "category": "Banking",
+    "region": "Global",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "193.108.75.62",
+      "91.214.6.62"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "qq.com",
+    "effective_domain": "qq.com",
+    "rank": 142,
+    "category": "Portal",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "113.108.81.189",
+      "203.205.254.157",
+      "123.150.76.218"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "bbc.co.uk",
+    "effective_domain": "bbc.co.uk",
+    "rank": 82,
+    "category": "News",
+    "region": "Europe",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "151.101.128.81",
+      "151.101.192.81",
+      "151.101.0.81",
+      "151.101.64.81"
+    ],
+    "ipv6_addresses": [
+      "2a04:4e42:400::81",
+      "2a04:4e42:600::81",
+      "2a04:4e42::81",
+      "2a04:4e42:200::81"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "creditsuisse.com",
+    "effective_domain": "creditsuisse.com",
+    "rank": 134,
+    "category": "Banking",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "198.240.216.43"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2718,8 +2639,8 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "59.82.118.164",
-      "59.82.132.238"
+      "47.246.173.237",
+      "47.246.173.30"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2745,23 +2666,6 @@
     "error_message": null
   },
   {
-    "domain": "myntra.com",
-    "effective_domain": "myntra.com",
-    "rank": 179,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "184.31.253.92"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
     "domain": "phonepe.com",
     "effective_domain": "phonepe.com",
     "rank": 181,
@@ -2771,10 +2675,10 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "18.155.229.109",
-      "18.155.229.122",
       "18.155.229.118",
-      "18.155.229.111"
+      "18.155.229.109",
+      "18.155.229.111",
+      "18.155.229.122"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2782,96 +2686,74 @@
     "error_message": null
   },
   {
-    "domain": "swiggy.com",
-    "effective_domain": "swiggy.com",
-    "rank": 189,
-    "category": "Food Delivery",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "52.221.87.32",
-      "52.77.21.10",
-      "54.169.167.229"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "sonyliv.com",
-    "effective_domain": "sonyliv.com",
-    "rank": 192,
-    "category": "Streaming",
+    "domain": "tmall.com",
+    "effective_domain": "tmall.com",
+    "rank": 144,
+    "category": "E-commerce",
     "region": "Asia",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "52.77.194.240"
+      "59.82.133.135",
+      "59.82.44.54",
+      "59.82.133.133",
+      "59.82.120.115",
+      "59.82.133.159",
+      "59.82.44.30",
+      "59.82.44.45",
+      "59.82.43.82"
     ],
     "ipv6_addresses": [
-      "2406:da18:eaf:1c2b:9060:c7f7:63a7:4b33",
-      "2406:da18:eaf:1c09:abb9:bba5:9dd4:69a",
-      "2406:da18:eaf:1c13:bbd4:142:c5dc:62b5"
+      "2401:b180:7003::2d3",
+      "2401:b180:7003::2bf",
+      "2401:b180:7003::101",
+      "2408:4001:f10::5c",
+      "2401:b180:7003::27f",
+      "2408:4001:f00::1fb",
+      "2408:4001:f10::e2",
+      "2408:4001:f00::28f"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "makemytrip.com",
-    "effective_domain": "makemytrip.com",
-    "rank": 184,
-    "category": "Travel",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "15.197.238.104",
-      "3.33.210.219"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "zomato.com",
-    "effective_domain": "zomato.com",
-    "rank": 188,
-    "category": "Food Delivery",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "3.0.53.224",
-      "3.0.210.218"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "jiosaavn.com",
-    "effective_domain": "jiosaavn.com",
-    "rank": 194,
-    "category": "Music",
+    "domain": "youku.com",
+    "effective_domain": "youku.com",
+    "rank": 149,
+    "category": "Video",
     "region": "Asia",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "20.244.240.164"
+      "106.11.43.183"
     ],
     "ipv6_addresses": [
-      "2603:1040:d01:4::49"
+      "2408:4001:f00::1af",
+      "2408:4001:f00::3a",
+      "2408:4001:f10::8",
+      "2408:4001:f10::fd"
     ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "paytm.com",
+    "effective_domain": "paytm.com",
+    "rank": 180,
+    "category": "Finance",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "172.65.64.51",
+      "172.65.64.50"
+    ],
+    "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -2886,8 +2768,8 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "52.76.84.246",
-      "52.76.135.64"
+      "52.220.132.196",
+      "13.251.67.130"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2895,16 +2777,31 @@
     "error_message": null
   },
   {
-    "domain": "shopee.com",
-    "effective_domain": "shopee.com",
-    "rank": 198,
+    "domain": "ola.cab",
+    "effective_domain": "ola.cab",
+    "rank": 187,
+    "category": "Transportation",
+    "region": "Asia",
+    "connectivity_status": "no_connectivity",
+    "has_ipv4": false,
+    "has_ipv6": false,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "flipkart.com",
+    "effective_domain": "flipkart.com",
+    "rank": 177,
     "category": "E-commerce",
     "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "147.136.140.106"
+      "103.243.32.90"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2942,8 +2839,8 @@
       "23.45.168.48"
     ],
     "ipv6_addresses": [
-      "2600:1415:4c00::17db:563b",
-      "2600:1415:4c00::17db:5652"
+      "2600:1415:8::6875:b56a",
+      "2600:1415:8::6875:b569"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
@@ -2960,8 +2857,8 @@
     "has_ipv6": false,
     "ipv4_addresses": [
       "18.155.229.57",
-      "18.155.229.94",
       "18.155.229.12",
+      "18.155.229.94",
       "18.155.229.69"
     ],
     "ipv6_addresses": [],
@@ -2970,16 +2867,16 @@
     "error_message": null
   },
   {
-    "domain": "tokopedia.com",
-    "effective_domain": "tokopedia.com",
-    "rank": 200,
-    "category": "E-commerce",
+    "domain": "voot.com",
+    "effective_domain": "voot.com",
+    "rank": 193,
+    "category": "Streaming",
     "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "47.74.234.244"
+      "184.29.121.15"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -2987,41 +2884,71 @@
     "error_message": null
   },
   {
-    "domain": "avito.ru",
-    "effective_domain": "avito.ru",
-    "rank": 120,
-    "category": "Classifieds",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "176.114.122.24",
-      "176.114.124.24",
-      "176.114.120.24"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "takealot.com",
-    "effective_domain": "takealot.com",
-    "rank": 203,
+    "domain": "taobao.com",
+    "effective_domain": "taobao.com",
+    "rank": 143,
     "category": "E-commerce",
-    "region": "Africa",
+    "region": "Asia",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "104.16.72.64",
-      "104.16.71.64"
+      "59.82.44.240",
+      "59.82.122.140",
+      "59.82.43.238",
+      "59.82.122.165",
+      "59.82.122.130",
+      "59.82.121.163",
+      "59.82.43.239",
+      "59.82.43.234"
     ],
     "ipv6_addresses": [
-      "2606:4700::6810:4840",
-      "2606:4700::6810:4740"
+      "2408:4001:f00::87",
+      "2408:4001:f00::3c",
+      "2408:4001:f10::5e",
+      "2401:b180:7003::ed",
+      "2401:b180:7003::25",
+      "2408:4001:f10::6f",
+      "2401:b180:7003::aa",
+      "2401:b180:7003::6b"
     ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "bilibili.com",
+    "effective_domain": "bilibili.com",
+    "rank": 148,
+    "category": "Video",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "139.159.241.37",
+      "8.134.50.24",
+      "47.103.24.173",
+      "119.3.70.188"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "163.com",
+    "effective_domain": "163.com",
+    "rank": 151,
+    "category": "Email",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "59.111.160.244"
+    ],
+    "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -3039,9 +2966,64 @@
       "23.62.240.57"
     ],
     "ipv6_addresses": [
-      "2600:1415:4c00:69b::2a5b",
-      "2600:1415:4c00:692::2a5b"
+      "2600:1415:8:298::2a5b",
+      "2600:1415:8:292::2a5b"
     ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "jiosaavn.com",
+    "effective_domain": "jiosaavn.com",
+    "rank": 194,
+    "category": "Music",
+    "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "20.244.240.164"
+    ],
+    "ipv6_addresses": [
+      "2603:1040:d01:4::49"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "tokopedia.com",
+    "effective_domain": "tokopedia.com",
+    "rank": 200,
+    "category": "E-commerce",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "47.74.244.18"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "swiggy.com",
+    "effective_domain": "swiggy.com",
+    "rank": 189,
+    "category": "Food Delivery",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.140.165.48",
+      "18.143.31.236",
+      "13.250.140.72"
+    ],
+    "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -3064,16 +3046,16 @@
     "error_message": null
   },
   {
-    "domain": "voot.com",
-    "effective_domain": "voot.com",
-    "rank": 193,
-    "category": "Streaming",
+    "domain": "sohu.com",
+    "effective_domain": "sohu.com",
+    "rank": 154,
+    "category": "Portal",
     "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "23.40.164.4"
+      "61.135.164.50"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -3081,15 +3063,277 @@
     "error_message": null
   },
   {
-    "domain": "googlepay.com",
-    "effective_domain": "googlepay.com",
-    "rank": 182,
-    "category": "Finance",
-    "region": "Global",
-    "connectivity_status": "no_connectivity",
-    "has_ipv4": false,
+    "domain": "zomato.com",
+    "effective_domain": "zomato.com",
+    "rank": 188,
+    "category": "Food Delivery",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
     "has_ipv6": false,
-    "ipv4_addresses": [],
+    "ipv4_addresses": [
+      "52.220.24.156",
+      "18.139.40.172"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "sonyliv.com",
+    "effective_domain": "sonyliv.com",
+    "rank": 192,
+    "category": "Streaming",
+    "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "52.77.194.240"
+    ],
+    "ipv6_addresses": [
+      "2406:da18:eaf:1c05:63:32c5:8508:210e",
+      "2406:da18:eaf:1c2f:bf19:26a3:1a91:f6c3",
+      "2406:da18:eaf:1c17:b502:57:f224:4299"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "sberbank.ru",
+    "effective_domain": "sberbank.ru",
+    "rank": 124,
+    "category": "Banking",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "84.252.149.206"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "amazon.in",
+    "effective_domain": "amazon.in",
+    "rank": 178,
+    "category": "E-commerce",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "3.253.168.43",
+      "3.253.170.100",
+      "3.253.176.101"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "weibo.com",
+    "effective_domain": "weibo.com",
+    "rank": 145,
+    "category": "Social Media",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "36.51.224.126",
+      "36.51.224.123"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "mail.ru",
+    "effective_domain": "mail.ru",
+    "rank": 89,
+    "category": "Email",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "185.180.201.1",
+      "90.156.232.4",
+      "89.221.239.1"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "wechat.com",
+    "effective_domain": "wechat.com",
+    "rank": 146,
+    "category": "Messaging",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "43.154.240.170",
+      "43.155.124.49"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ok.ru",
+    "effective_domain": "ok.ru",
+    "rank": 91,
+    "category": "Social Media",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "5.61.23.11",
+      "217.20.155.13",
+      "217.20.147.1"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "grab.com",
+    "effective_domain": "grab.com",
+    "rank": 197,
+    "category": "Transportation",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.216.66",
+      "18.155.216.87",
+      "18.155.216.28",
+      "18.155.216.89"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ccb.com",
+    "effective_domain": "ccb.com",
+    "rank": 164,
+    "category": "Banking",
+    "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "114.251.248.14"
+    ],
+    "ipv6_addresses": [
+      "240e:604:104:32::25"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "126.com",
+    "effective_domain": "126.com",
+    "rank": 152,
+    "category": "Email",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "111.124.203.38"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "naver.com",
+    "effective_domain": "naver.com",
+    "rank": 171,
+    "category": "Search",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "223.130.192.248",
+      "223.130.200.236",
+      "223.130.200.219",
+      "223.130.192.247"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "meituan.com",
+    "effective_domain": "meituan.com",
+    "rank": 157,
+    "category": "Food Delivery",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "43.132.29.159"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "jumia.com",
+    "effective_domain": "jumia.com",
+    "rank": 201,
+    "category": "E-commerce",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "104.16.196.130",
+      "104.16.197.130"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "shopee.com",
+    "effective_domain": "shopee.com",
+    "rank": 198,
+    "category": "E-commerce",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "143.92.82.21"
+    ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
@@ -3117,57 +3361,99 @@
     "error_message": null
   },
   {
-    "domain": "grab.com",
-    "effective_domain": "grab.com",
-    "rank": 197,
-    "category": "Transportation",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.155.216.28",
-      "18.155.216.89",
-      "18.155.216.87",
-      "18.155.216.66"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "jd.com",
-    "effective_domain": "jd.com",
-    "rank": 155,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "106.39.171.134",
-      "111.13.149.108",
-      "211.144.24.218",
-      "211.144.27.126"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "jumia.com",
-    "effective_domain": "jumia.com",
-    "rank": 201,
+    "domain": "takealot.com",
+    "effective_domain": "takealot.com",
+    "rank": 203,
     "category": "E-commerce",
     "region": "Africa",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "104.16.72.64",
+      "104.16.71.64"
+    ],
+    "ipv6_addresses": [
+      "2606:4700::6810:4840",
+      "2606:4700::6810:4740"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "lamoda.ru",
+    "effective_domain": "lamoda.ru",
+    "rank": 121,
+    "category": "E-commerce",
+    "region": "Europe",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "104.16.196.130",
-      "104.16.197.130"
+      "81.161.98.78"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "bbc.com",
+    "effective_domain": "bbc.com",
+    "rank": 225,
+    "category": "News",
+    "region": "Africa",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "151.101.192.81",
+      "151.101.64.81",
+      "151.101.0.81",
+      "151.101.128.81"
+    ],
+    "ipv6_addresses": [
+      "2a04:4e42:600::81",
+      "2a04:4e42:400::81",
+      "2a04:4e42:200::81",
+      "2a04:4e42::81"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "dianping.com",
+    "effective_domain": "dianping.com",
+    "rank": 158,
+    "category": "Reviews",
+    "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "202.90.108.5"
+    ],
+    "ipv6_addresses": [
+      "2405:1480:1000:3::3"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "makemytrip.com",
+    "effective_domain": "makemytrip.com",
+    "rank": 184,
+    "category": "Travel",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "3.33.210.219",
+      "15.197.238.104"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -3184,62 +3470,13 @@
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "104.18.219.28",
-      "104.18.218.28"
+      "104.18.218.28",
+      "104.18.219.28"
     ],
     "ipv6_addresses": [
       "2606:4700::6812:db1c",
       "2606:4700::6812:da1c"
     ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "yahoo.co.jp",
-    "effective_domain": "yahoo.co.jp",
-    "rank": 167,
-    "category": "Portal",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "183.79.250.251",
-      "182.22.31.252",
-      "182.22.28.252",
-      "182.22.25.124",
-      "183.79.219.252",
-      "183.79.219.124",
-      "124.83.185.252",
-      "182.22.31.124",
-      "182.22.24.124",
-      "183.79.249.124",
-      "182.22.24.252",
-      "124.83.184.252",
-      "183.79.249.252",
-      "124.83.184.124",
-      "182.22.25.252",
-      "182.22.16.123",
-      "182.22.16.251",
-      "124.83.185.124"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "ola.cab",
-    "effective_domain": "ola.cab",
-    "rank": 187,
-    "category": "Transportation",
-    "region": "Asia",
-    "connectivity_status": "no_connectivity",
-    "has_ipv4": false,
-    "has_ipv6": false,
-    "ipv4_addresses": [],
-    "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -3258,66 +3495,25 @@
       "104.17.251.6"
     ],
     "ipv6_addresses": [
-      "2606:4700::6811:fb06",
-      "2606:4700::6811:fa06"
+      "2606:4700::6811:fa06",
+      "2606:4700::6811:fb06"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "bilibili.com",
-    "effective_domain": "bilibili.com",
-    "rank": 148,
-    "category": "Video",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "119.3.70.188",
-      "47.103.24.173",
-      "139.159.241.37",
-      "8.134.50.24"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "youku.com",
-    "effective_domain": "youku.com",
-    "rank": 149,
-    "category": "Video",
-    "region": "Asia",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "106.11.35.97"
-    ],
-    "ipv6_addresses": [
-      "2408:4001:f00::3a",
-      "2408:4001:f10::fd",
-      "2408:4001:f10::8",
-      "2408:4001:f00::1af"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "rakuten.co.jp",
-    "effective_domain": "rakuten.co.jp",
-    "rank": 168,
+    "domain": "souq.com",
+    "effective_domain": "souq.com",
+    "rank": 221,
     "category": "E-commerce",
-    "region": "Asia",
+    "region": "Africa",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "133.237.180.69"
+      "99.81.73.165",
+      "54.74.90.10"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -3325,39 +3521,128 @@
     "error_message": null
   },
   {
-    "domain": "alipay.com",
-    "effective_domain": "alipay.com",
-    "rank": 161,
+    "domain": "aljazeera.com",
+    "effective_domain": "aljazeera.com",
+    "rank": 223,
+    "category": "News",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "16.16.152.237",
+      "13.61.39.134",
+      "13.62.113.121"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "masrawy.com",
+    "effective_domain": "masrawy.com",
+    "rank": 228,
+    "category": "News",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "172.66.136.4",
+      "172.66.137.156"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "daum.net",
+    "effective_domain": "daum.net",
+    "rank": 172,
+    "category": "Portal",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "121.53.105.193",
+      "211.249.220.24"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "tenpay.com",
+    "effective_domain": "tenpay.com",
+    "rank": 162,
     "category": "Finance",
     "region": "Asia",
-    "connectivity_status": "dual_stack",
+    "connectivity_status": "ipv4_only",
     "has_ipv4": true,
-    "has_ipv6": true,
+    "has_ipv6": false,
     "ipv4_addresses": [
-      "110.75.130.45",
-      "110.76.8.255"
+      "0.0.0.1"
     ],
-    "ipv6_addresses": [
-      "2400:b200:1005:3030::247",
-      "2400:b200:1005:3030::27c"
-    ],
+    "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "otto.de",
-    "effective_domain": "otto.de",
-    "rank": 111,
-    "category": "E-commerce",
-    "region": "Europe",
+    "domain": "kakao.com",
+    "effective_domain": "kakao.com",
+    "rank": 173,
+    "category": "Messaging",
+    "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "18.185.196.190"
+      "211.242.11.41",
+      "121.53.93.60",
+      "211.249.251.46"
     ],
     "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "googlepay.com",
+    "effective_domain": "googlepay.com",
+    "rank": 182,
+    "category": "Finance",
+    "region": "Global",
+    "connectivity_status": "no_connectivity",
+    "has_ipv4": false,
+    "has_ipv6": false,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "hespress.com",
+    "effective_domain": "hespress.com",
+    "rank": 231,
+    "category": "News",
+    "region": "Africa",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "104.18.22.196",
+      "104.18.23.196"
+    ],
+    "ipv6_addresses": [
+      "2606:4700::6812:17c4",
+      "2606:4700::6812:16c4"
+    ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -3397,50 +3682,6 @@
     "error_message": null
   },
   {
-    "domain": "aljazeera.com",
-    "effective_domain": "aljazeera.com",
-    "rank": 223,
-    "category": "News",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "3.137.92.204",
-      "3.133.243.119",
-      "3.19.181.129"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "bbc.com",
-    "effective_domain": "bbc.com",
-    "rank": 225,
-    "category": "News",
-    "region": "Africa",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "151.101.0.81",
-      "151.101.192.81",
-      "151.101.128.81",
-      "151.101.64.81"
-    ],
-    "ipv6_addresses": [
-      "2a04:4e42:200::81",
-      "2a04:4e42:600::81",
-      "2a04:4e42:400::81",
-      "2a04:4e42::81"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
     "domain": "filgoal.com",
     "effective_domain": "filgoal.com",
     "rank": 226,
@@ -3457,273 +3698,6 @@
       "2606:4700:10::ac42:86fa",
       "2606:4700:10::ac42:8b0c"
     ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "weibo.com",
-    "effective_domain": "weibo.com",
-    "rank": 145,
-    "category": "Social Media",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "36.51.224.126",
-      "36.51.224.123"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "souq.com",
-    "effective_domain": "souq.com",
-    "rank": 221,
-    "category": "E-commerce",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "34.248.38.96",
-      "54.72.33.15"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "mail.ru",
-    "effective_domain": "mail.ru",
-    "rank": 89,
-    "category": "Email",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "89.221.239.1",
-      "90.156.232.4",
-      "185.180.201.1"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "iol.co.za",
-    "effective_domain": "iol.co.za",
-    "rank": 212,
-    "category": "News",
-    "region": "Africa",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "104.20.43.164",
-      "172.66.168.156"
-    ],
-    "ipv6_addresses": [
-      "2606:4700:10::ac42:a89c",
-      "2606:4700:10::6814:2ba4"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "qq.com",
-    "effective_domain": "qq.com",
-    "rank": 142,
-    "category": "Portal",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "123.150.76.218",
-      "203.205.254.157",
-      "113.108.81.189"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "sina.com.cn",
-    "effective_domain": "sina.com.cn",
-    "rank": 153,
-    "category": "News",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "36.51.254.91"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "meituan.com",
-    "effective_domain": "meituan.com",
-    "rank": 157,
-    "category": "Food Delivery",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "43.132.29.159"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "alarabiya.net",
-    "effective_domain": "alarabiya.net",
-    "rank": 224,
-    "category": "News",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "35.189.113.23"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "tinkoff.ru",
-    "effective_domain": "tinkoff.ru",
-    "rank": 126,
-    "category": "Banking",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "178.130.128.27"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "masrawy.com",
-    "effective_domain": "masrawy.com",
-    "rank": 228,
-    "category": "News",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "172.66.136.4",
-      "172.66.137.156"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "ubs.com",
-    "effective_domain": "ubs.com",
-    "rank": 135,
-    "category": "Banking",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "193.134.111.71"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "privateproperty.co.za",
-    "effective_domain": "privateproperty.co.za",
-    "rank": 208,
-    "category": "Real Estate",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "13.94.101.138"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "allegro.pl",
-    "effective_domain": "allegro.pl",
-    "rank": 119,
-    "category": "E-commerce",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "185.31.27.160"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "livejournal.com",
-    "effective_domain": "livejournal.com",
-    "rank": 92,
-    "category": "Blogging",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "81.19.74.1",
-      "81.19.74.0"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "barclays.co.uk",
-    "effective_domain": "barclays.co.uk",
-    "rank": 132,
-    "category": "Banking",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "23.214.151.29"
-    ],
-    "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -3750,45 +3724,6 @@
     "error_message": null
   },
   {
-    "domain": "bidorbuy.co.za",
-    "effective_domain": "bidorbuy.co.za",
-    "rank": 204,
-    "category": "E-commerce",
-    "region": "Africa",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "104.21.5.134",
-      "172.67.133.125"
-    ],
-    "ipv6_addresses": [
-      "2606:4700:3033::6815:586",
-      "2606:4700:3033::ac43:857d"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "nairaland.com",
-    "effective_domain": "nairaland.com",
-    "rank": 244,
-    "category": "Forum",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "172.66.135.108",
-      "172.66.138.206"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
     "domain": "elwatan.com",
     "effective_domain": "elwatan.com",
     "rank": 230,
@@ -3807,37 +3742,96 @@
     "error_message": null
   },
   {
-    "domain": "hespress.com",
-    "effective_domain": "hespress.com",
-    "rank": 231,
+    "domain": "premiumtimesng.com",
+    "effective_domain": "premiumtimesng.com",
+    "rank": 242,
     "category": "News",
     "region": "Africa",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "104.18.22.196",
-      "104.18.23.196"
+      "104.26.11.163",
+      "104.26.10.163",
+      "172.67.73.132"
     ],
     "ipv6_addresses": [
-      "2606:4700::6812:16c4",
-      "2606:4700::6812:17c4"
+      "2606:4700:20::ac43:4984",
+      "2606:4700:20::681a:aa3",
+      "2606:4700:20::681a:ba3"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "creditsuisse.com",
-    "effective_domain": "creditsuisse.com",
-    "rank": 134,
-    "category": "Banking",
+    "domain": "amazon.de",
+    "effective_domain": "amazon.de",
+    "rank": 112,
+    "category": "E-commerce",
     "region": "Europe",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "198.240.216.43"
+      "3.253.168.19",
+      "3.253.171.165",
+      "3.253.177.16"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "livejournal.com",
+    "effective_domain": "livejournal.com",
+    "rank": 92,
+    "category": "Blogging",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "81.19.74.1",
+      "81.19.74.0"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "alarabiya.net",
+    "effective_domain": "alarabiya.net",
+    "rank": 224,
+    "category": "News",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "35.189.113.23"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "legit.ng",
+    "effective_domain": "legit.ng",
+    "rank": 243,
+    "category": "News",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "18.155.229.106",
+      "18.155.229.3",
+      "18.155.229.104",
+      "18.155.229.77"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -3866,65 +3860,74 @@
     "error_message": null
   },
   {
-    "domain": "lazada.com",
-    "effective_domain": "lazada.com",
-    "rank": 199,
+    "domain": "pulse.ng",
+    "effective_domain": "pulse.ng",
+    "rank": 247,
+    "category": "News",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "178.63.30.137"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "12306.cn",
+    "effective_domain": "12306.cn",
+    "rank": 160,
+    "category": "Transportation",
+    "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "61.180.32.148",
+      "182.40.51.68"
+    ],
+    "ipv6_addresses": [
+      "240e:93c:1204:13::7d",
+      "240e:96c:6000:2100::cf"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "nairaland.com",
+    "effective_domain": "nairaland.com",
+    "rank": 244,
+    "category": "Forum",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "172.66.138.206",
+      "172.66.135.108"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "pinduoduo.com",
+    "effective_domain": "pinduoduo.com",
+    "rank": 156,
     "category": "E-commerce",
     "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "47.246.167.10",
-      "47.246.165.182",
-      "47.246.165.110",
-      "47.246.167.7",
-      "47.246.165.39",
-      "47.246.167.254",
-      "47.246.165.111",
-      "47.246.167.114"
+      "124.156.123.148"
     ],
     "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "wildberries.ru",
-    "effective_domain": "wildberries.ru",
-    "rank": 122,
-    "category": "E-commerce",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "185.62.202.2"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "premiumtimesng.com",
-    "effective_domain": "premiumtimesng.com",
-    "rank": 242,
-    "category": "News",
-    "region": "Africa",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "172.67.73.132",
-      "104.26.10.163",
-      "104.26.11.163"
-    ],
-    "ipv6_addresses": [
-      "2606:4700:20::681a:ba3",
-      "2606:4700:20::ac43:4984",
-      "2606:4700:20::681a:aa3"
-    ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -3939,8 +3942,8 @@
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "172.67.132.46",
-      "104.21.12.155"
+      "104.21.12.155",
+      "172.67.132.46"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -3948,183 +3951,61 @@
     "error_message": null
   },
   {
-    "domain": "linda-ikeji.blogspot.com",
-    "effective_domain": "linda-ikeji.blogspot.com",
-    "rank": 245,
-    "category": "Blog",
+    "domain": "gtbank.com",
+    "effective_domain": "gtbank.com",
+    "rank": 235,
+    "category": "Banking",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "45.60.46.99",
+      "45.60.52.99"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "iol.co.za",
+    "effective_domain": "iol.co.za",
+    "rank": 212,
+    "category": "News",
     "region": "Africa",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "172.217.167.97"
+      "172.66.168.156",
+      "104.20.43.164"
     ],
     "ipv6_addresses": [
-      "2404:6800:4006:80b::2001"
+      "2606:4700:10::ac42:a89c",
+      "2606:4700:10::6814:2ba4"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "daum.net",
-    "effective_domain": "daum.net",
-    "rank": 172,
-    "category": "Portal",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "211.249.220.24",
-      "121.53.105.193"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "163.com",
-    "effective_domain": "163.com",
-    "rank": 151,
-    "category": "Email",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "59.111.160.244"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "sohu.com",
-    "effective_domain": "sohu.com",
-    "rank": 154,
-    "category": "Portal",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "61.135.164.50"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "douyin.com",
-    "effective_domain": "douyin.com",
-    "rank": 147,
-    "category": "Social Media",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "101.126.56.165",
-      "122.14.229.58",
-      "122.14.229.63",
-      "122.14.229.64",
-      "122.14.236.45",
-      "101.126.56.164"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "ccb.com",
-    "effective_domain": "ccb.com",
-    "rank": 164,
-    "category": "Banking",
-    "region": "Asia",
+    "domain": "bidorbuy.co.za",
+    "effective_domain": "bidorbuy.co.za",
+    "rank": 204,
+    "category": "E-commerce",
+    "region": "Africa",
     "connectivity_status": "dual_stack",
     "has_ipv4": true,
     "has_ipv6": true,
     "ipv4_addresses": [
-      "58.49.73.85"
+      "172.67.133.125",
+      "104.21.5.134"
     ],
     "ipv6_addresses": [
-      "2409:874c:d10:90::14a"
+      "2606:4700:3033::ac43:857d",
+      "2606:4700:3033::6815:586"
     ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "126.com",
-    "effective_domain": "126.com",
-    "rank": 152,
-    "category": "Email",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "111.124.203.38"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "vtb.ru",
-    "effective_domain": "vtb.ru",
-    "rank": 125,
-    "category": "Banking",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "195.242.82.13",
-      "195.242.83.13"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "orange.com",
-    "effective_domain": "orange.com",
-    "rank": 233,
-    "category": "Telecommunications",
-    "region": "Global",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "90.84.180.167"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "gmarket.co.kr",
-    "effective_domain": "gmarket.co.kr",
-    "rank": 176,
-    "category": "E-commerce",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "117.52.47.78",
-      "183.111.134.78"
-    ],
-    "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -4144,62 +4025,32 @@
       "104.26.9.50"
     ],
     "ipv6_addresses": [
+      "2606:4700:20::681a:832",
       "2606:4700:20::681a:932",
-      "2606:4700:20::ac43:4acf",
-      "2606:4700:20::681a:832"
+      "2606:4700:20::ac43:4acf"
     ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "tenpay.com",
-    "effective_domain": "tenpay.com",
-    "rank": 162,
-    "category": "Finance",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "0.0.0.1"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "kakao.com",
-    "effective_domain": "kakao.com",
-    "rank": 173,
-    "category": "Messaging",
-    "region": "Asia",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "121.53.93.60",
-      "211.249.251.46",
-      "211.242.11.41"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "ozon.ru",
-    "effective_domain": "ozon.ru",
-    "rank": 123,
+    "domain": "lazada.com",
+    "effective_domain": "lazada.com",
+    "rank": 199,
     "category": "E-commerce",
-    "region": "Europe",
+    "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "185.73.194.82",
-      "185.73.193.68"
+      "47.246.167.254",
+      "47.246.167.7",
+      "47.246.165.182",
+      "47.246.165.39",
+      "47.246.165.111",
+      "47.246.167.10",
+      "47.246.167.114",
+      "47.246.165.110"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -4224,21 +4075,16 @@
     "error_message": null
   },
   {
-    "domain": "ctrip.com",
-    "effective_domain": "ctrip.com",
-    "rank": 159,
-    "category": "Travel",
-    "region": "Asia",
+    "domain": "privateproperty.co.za",
+    "effective_domain": "privateproperty.co.za",
+    "rank": 208,
+    "category": "Real Estate",
+    "region": "Africa",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "211.95.54.121",
-      "117.135.161.18",
-      "114.80.56.121",
-      "117.131.27.7",
-      "180.163.115.16",
-      "220.196.164.16"
+      "13.94.101.138"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -4246,53 +4092,36 @@
     "error_message": null
   },
   {
-    "domain": "icbc.com.cn",
-    "effective_domain": "icbc.com.cn",
-    "rank": 163,
-    "category": "Banking",
-    "region": "Asia",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "211.95.81.96"
-    ],
-    "ipv6_addresses": [
-      "2408:8026:400:a::18b"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "absa.co.za",
-    "effective_domain": "absa.co.za",
-    "rank": 216,
-    "category": "Banking",
+    "domain": "pnet.co.za",
+    "effective_domain": "pnet.co.za",
+    "rank": 210,
+    "category": "Job Search",
     "region": "Africa",
-    "connectivity_status": "dual_stack",
+    "connectivity_status": "ipv4_only",
     "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "178.79.178.218"
-    ],
-    "ipv6_addresses": [
-      "2a01:7e00:e000:3f7::"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "uba.africa",
-    "effective_domain": "uba.africa",
-    "rank": 239,
-    "category": "Banking",
-    "region": "Africa",
-    "connectivity_status": "no_connectivity",
-    "has_ipv4": false,
     "has_ipv6": false,
-    "ipv4_addresses": [],
+    "ipv4_addresses": [
+      "54.73.97.156",
+      "18.202.153.4",
+      "108.128.24.60"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "orange.com",
+    "effective_domain": "orange.com",
+    "rank": 233,
+    "category": "Telecommunications",
+    "region": "Global",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "34.54.184.7"
+    ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
@@ -4316,16 +4145,78 @@
     "error_message": null
   },
   {
-    "domain": "lamoda.ru",
-    "effective_domain": "lamoda.ru",
-    "rank": 121,
+    "domain": "linda-ikeji.blogspot.com",
+    "effective_domain": "linda-ikeji.blogspot.com",
+    "rank": 245,
+    "category": "Blog",
+    "region": "Africa",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "142.250.66.193"
+    ],
+    "ipv6_addresses": [
+      "2404:6800:4006:80f::2001"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "guardian.ng",
+    "effective_domain": "guardian.ng",
+    "rank": 248,
+    "category": "News",
+    "region": "Africa",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "104.26.4.228",
+      "172.67.73.120",
+      "104.26.5.228"
+    ],
+    "ipv6_addresses": [
+      "2606:4700:20::681a:5e4",
+      "2606:4700:20::ac43:4978",
+      "2606:4700:20::681a:4e4"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "amazon.co.jp",
+    "effective_domain": "amazon.co.jp",
+    "rank": 169,
     "category": "E-commerce",
-    "region": "Europe",
+    "region": "Asia",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "178.248.232.33"
+      "18.246.95.183",
+      "18.246.99.104",
+      "18.246.98.187"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "gmarket.co.kr",
+    "effective_domain": "gmarket.co.kr",
+    "rank": 176,
+    "category": "E-commerce",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "183.111.134.78",
+      "117.52.47.78"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -4350,98 +4241,6 @@
     "error_message": null
   },
   {
-    "domain": "gtbank.com",
-    "effective_domain": "gtbank.com",
-    "rank": 235,
-    "category": "Banking",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "45.60.52.99",
-      "45.60.46.99"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "pnet.co.za",
-    "effective_domain": "pnet.co.za",
-    "rank": 210,
-    "category": "Job Search",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "108.128.24.60",
-      "18.202.153.4",
-      "54.73.97.156"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "menara.ma",
-    "effective_domain": "menara.ma",
-    "rank": 232,
-    "category": "Portal",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "81.192.44.25"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "12306.cn",
-    "effective_domain": "12306.cn",
-    "rank": 160,
-    "category": "Transportation",
-    "region": "Asia",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "125.77.130.13",
-      "112.67.249.77"
-    ],
-    "ipv6_addresses": [
-      "240e:615:6f0e:e::472",
-      "240e:964:ea00::13b"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "sberbank.ru",
-    "effective_domain": "sberbank.ru",
-    "rank": 124,
-    "category": "Banking",
-    "region": "Europe",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "84.252.149.206"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
     "domain": "techpoint.africa",
     "effective_domain": "techpoint.africa",
     "rank": 249,
@@ -4459,33 +4258,19 @@
     "error_message": null
   },
   {
-    "domain": "pulse.ng",
-    "effective_domain": "pulse.ng",
-    "rank": 247,
-    "category": "News",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "178.63.30.137"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "fnb.co.za",
-    "effective_domain": "fnb.co.za",
-    "rank": 215,
+    "domain": "firstbanknigeria.com",
+    "effective_domain": "www.firstbanknigeria.com",
+    "rank": 238,
     "category": "Banking",
     "region": "Africa",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "196.11.125.167"
+      "18.155.216.58",
+      "18.155.216.35",
+      "18.155.216.121",
+      "18.155.216.4"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -4493,16 +4278,155 @@
     "error_message": null
   },
   {
-    "domain": "vodacom.co.za",
-    "effective_domain": "vodacom.co.za",
-    "rank": 220,
-    "category": "Telecommunications",
+    "domain": "allegro.pl",
+    "effective_domain": "allegro.pl",
+    "rank": 119,
+    "category": "E-commerce",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "5.134.213.80"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "yahoo.co.jp",
+    "effective_domain": "yahoo.co.jp",
+    "rank": 167,
+    "category": "Portal",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "124.83.185.124",
+      "182.22.25.124",
+      "183.79.250.251",
+      "182.22.24.124",
+      "182.22.24.252",
+      "183.79.219.124",
+      "124.83.185.252",
+      "182.22.16.123",
+      "182.22.16.251",
+      "183.79.249.124",
+      "124.83.184.124",
+      "182.22.28.252",
+      "182.22.25.252",
+      "183.79.249.252",
+      "182.22.31.124",
+      "182.22.31.252",
+      "124.83.184.252",
+      "183.79.219.252"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "rakuten.co.jp",
+    "effective_domain": "rakuten.co.jp",
+    "rank": 168,
+    "category": "E-commerce",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "133.237.180.69"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "absa.co.za",
+    "effective_domain": "absa.co.za",
+    "rank": 216,
+    "category": "Banking",
+    "region": "Africa",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "178.79.178.218"
+    ],
+    "ipv6_addresses": [
+      "2a01:7e00:e000:3f7::"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "accessbankplc.com",
+    "effective_domain": "accessbankplc.com",
+    "rank": 236,
+    "category": "Banking",
     "region": "Africa",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "41.192.255.27"
+      "159.60.133.8"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "uba.africa",
+    "effective_domain": "uba.africa",
+    "rank": 239,
+    "category": "Banking",
+    "region": "Africa",
+    "connectivity_status": "no_connectivity",
+    "has_ipv4": false,
+    "has_ipv6": false,
+    "ipv4_addresses": [],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "olx.co.za",
+    "effective_domain": "olx.co.za",
+    "rank": 206,
+    "category": "Classifieds",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "80.88.11.43"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "jd.com",
+    "effective_domain": "jd.com",
+    "rank": 155,
+    "category": "E-commerce",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "211.144.24.218",
+      "111.13.149.108",
+      "106.39.171.134",
+      "211.144.27.126"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -4528,101 +4452,6 @@
     "error_message": null
   },
   {
-    "domain": "guardian.ng",
-    "effective_domain": "guardian.ng",
-    "rank": 248,
-    "category": "News",
-    "region": "Africa",
-    "connectivity_status": "dual_stack",
-    "has_ipv4": true,
-    "has_ipv6": true,
-    "ipv4_addresses": [
-      "172.67.181.21",
-      "104.21.64.100"
-    ],
-    "ipv6_addresses": [
-      "2606:4700:3031::ac43:b515",
-      "2606:4700:3037::6815:4064"
-    ],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "olx.co.za",
-    "effective_domain": "olx.co.za",
-    "rank": 206,
-    "category": "Classifieds",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "80.88.11.43"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "accessbankplc.com",
-    "effective_domain": "accessbankplc.com",
-    "rank": 236,
-    "category": "Banking",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "159.60.133.8"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "legit.ng",
-    "effective_domain": "legit.ng",
-    "rank": 243,
-    "category": "News",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.155.229.3",
-      "18.155.229.104",
-      "18.155.229.77",
-      "18.155.229.106"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "firstbanknigeria.com",
-    "effective_domain": "www.firstbanknigeria.com",
-    "rank": 238,
-    "category": "Banking",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "18.155.216.35",
-      "18.155.216.4",
-      "18.155.216.121",
-      "18.155.216.58"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
     "domain": "punch.ng",
     "effective_domain": "punch.ng",
     "rank": 240,
@@ -4635,6 +4464,48 @@
       "34.117.176.22"
     ],
     "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "boc.cn",
+    "effective_domain": "www.boc.cn",
+    "rank": 165,
+    "category": "Banking",
+    "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "116.136.32.177"
+    ],
+    "ipv6_addresses": [
+      "2408:862a:c11:200::46"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "abchina.com",
+    "effective_domain": "www.abchina.com",
+    "rank": 166,
+    "category": "Banking",
+    "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "163.171.197.110",
+      "61.110.250.18",
+      "163.171.197.13"
+    ],
+    "ipv6_addresses": [
+      "2a01:53c0:ffe3::7f",
+      "2a01:53c0:ffe2::14",
+      "2a01:53c0:ffe3::29"
+    ],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -4657,17 +4528,35 @@
     "error_message": null
   },
   {
-    "domain": "wechat.com",
-    "effective_domain": "wechat.com",
-    "rank": 146,
-    "category": "Messaging",
+    "domain": "icbc.com.cn",
+    "effective_domain": "icbc.com.cn",
+    "rank": 163,
+    "category": "Banking",
     "region": "Asia",
+    "connectivity_status": "dual_stack",
+    "has_ipv4": true,
+    "has_ipv6": true,
+    "ipv4_addresses": [
+      "211.95.81.96"
+    ],
+    "ipv6_addresses": [
+      "2409:871e:8f00:15::18b"
+    ],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "vodacom.co.za",
+    "effective_domain": "vodacom.co.za",
+    "rank": 220,
+    "category": "Telecommunications",
+    "region": "Africa",
     "connectivity_status": "ipv4_only",
     "has_ipv4": true,
     "has_ipv6": false,
     "ipv4_addresses": [
-      "43.154.240.170",
-      "43.155.124.49"
+      "41.192.255.27"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,
@@ -4675,43 +4564,181 @@
     "error_message": null
   },
   {
-    "domain": "boc.cn",
-    "effective_domain": "www.boc.cn",
-    "rank": 165,
-    "category": "Banking",
-    "region": "Asia",
-    "connectivity_status": "dual_stack",
+    "domain": "menara.ma",
+    "effective_domain": "menara.ma",
+    "rank": 232,
+    "category": "Portal",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
     "has_ipv4": true,
-    "has_ipv6": true,
+    "has_ipv6": false,
     "ipv4_addresses": [
-      "39.155.236.47"
+      "81.192.44.25"
     ],
-    "ipv6_addresses": [
-      "2408:8606:2300:0:12::12"
-    ],
+    "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
   },
   {
-    "domain": "abchina.com",
-    "effective_domain": "www.abchina.com",
-    "rank": 166,
+    "domain": "zenithbank.com",
+    "effective_domain": "zenithbank.com",
+    "rank": 237,
     "category": "Banking",
-    "region": "Asia",
-    "connectivity_status": "dual_stack",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
     "has_ipv4": true,
-    "has_ipv6": true,
+    "has_ipv6": false,
     "ipv4_addresses": [
-      "163.171.197.13",
-      "163.171.196.45",
-      "61.110.250.18"
+      "45.60.46.43",
+      "45.60.50.43"
     ],
-    "ipv6_addresses": [
-      "2a01:53c0:ffe2::79",
-      "2a01:53c0:ffe3::7f",
-      "2a01:53c0:ffe2::14"
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "tinkoff.ru",
+    "effective_domain": "tinkoff.ru",
+    "rank": 126,
+    "category": "Banking",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "178.130.128.27"
     ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "ozon.ru",
+    "effective_domain": "ozon.ru",
+    "rank": 123,
+    "category": "E-commerce",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "185.73.193.68",
+      "185.73.194.82"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "avito.ru",
+    "effective_domain": "avito.ru",
+    "rank": 120,
+    "category": "Classifieds",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "176.114.124.24",
+      "176.114.120.24",
+      "176.114.122.24"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "vk.com",
+    "effective_domain": "vk.com",
+    "rank": 90,
+    "category": "Social Media",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "93.186.225.194",
+      "87.240.129.133",
+      "87.240.132.78",
+      "87.240.137.164",
+      "87.240.132.67",
+      "87.240.132.72"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "wildberries.ru",
+    "effective_domain": "wildberries.ru",
+    "rank": 122,
+    "category": "E-commerce",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "185.62.202.2"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "sina.com.cn",
+    "effective_domain": "sina.com.cn",
+    "rank": 153,
+    "category": "News",
+    "region": "Asia",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "36.51.254.91"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "vtb.ru",
+    "effective_domain": "vtb.ru",
+    "rank": 125,
+    "category": "Banking",
+    "region": "Europe",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "195.242.82.13",
+      "195.242.83.13"
+    ],
+    "ipv6_addresses": [],
+    "response_time_ipv4": null,
+    "response_time_ipv6": null,
+    "error_message": null
+  },
+  {
+    "domain": "fnb.co.za",
+    "effective_domain": "fnb.co.za",
+    "rank": 215,
+    "category": "Banking",
+    "region": "Africa",
+    "connectivity_status": "ipv4_only",
+    "has_ipv4": true,
+    "has_ipv6": false,
+    "ipv4_addresses": [
+      "196.11.125.167"
+    ],
+    "ipv6_addresses": [],
     "response_time_ipv4": null,
     "response_time_ipv6": null,
     "error_message": null
@@ -4762,24 +4789,6 @@
     "ipv4_addresses": [
       "45.223.18.17",
       "45.223.28.17"
-    ],
-    "ipv6_addresses": [],
-    "response_time_ipv4": null,
-    "response_time_ipv6": null,
-    "error_message": null
-  },
-  {
-    "domain": "zenithbank.com",
-    "effective_domain": "zenithbank.com",
-    "rank": 237,
-    "category": "Banking",
-    "region": "Africa",
-    "connectivity_status": "ipv4_only",
-    "has_ipv4": true,
-    "has_ipv6": false,
-    "ipv4_addresses": [
-      "45.60.50.43",
-      "45.60.46.43"
     ],
     "ipv6_addresses": [],
     "response_time_ipv4": null,

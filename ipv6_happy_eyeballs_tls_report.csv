@@ -1,0 +1,101 @@
+Rank,Domain,Has_A,Has_AAAA,NS_Infrastructure_IPv6,IPv6_Reachable,IPv4_RTT_TLS,IPv6_RTT_TLS,Happy_Eyeballs_Winner
+1,google.com,True,True,True,True,120.7,121.0,IPv6
+2,microsoft.com,True,True,True,True,8.5,533.3,IPv4
+3,googleapis.com,True,True,True,True,123.5,120.4,IPv6
+4,gstatic.com,True,True,True,True,121.8,121.3,IPv6
+5,apple.com,True,True,True,True,29.8,28.3,IPv6
+6,facebook.com,True,True,True,True,28.7,27.9,IPv6
+7,amazonaws.com,True,False,True,False,,,Both Failed
+8,office.com,True,True,True,True,52.0,65.3,IPv6
+9,akadns.net,False,False,True,False,,,Both Failed
+10,azure.com,True,False,True,False,442.0,,IPv4 Only
+11,akamaiedge.net,False,False,True,False,,,Both Failed
+12,live.com,True,False,True,False,21.4,,IPv4 Only
+13,ntp.org,True,False,True,False,636.2,,IPv4 Only
+14,apple-dns.net,False,False,True,False,,,Both Failed
+15,aaplimg.com,False,False,True,False,,,Both Failed
+16,akamai.net,False,False,True,False,,,Both Failed
+17,trafficmanager.net,False,False,True,False,,,Both Failed
+18,youtube.com,True,True,True,True,121.7,119.6,IPv6
+19,spotify.com,True,True,True,True,30.1,30.3,IPv6
+20,doubleclick.net,True,True,False,False,,,Failed
+21,icloud.com,True,True,True,True,29.7,28.5,IPv6
+22,fastly.net,True,True,False,True,9.8,439.3,IPv4
+23,cloudfront.net,False,False,True,False,,,Both Failed
+24,office.net,False,False,True,False,,,Both Failed
+25,microsoftonline.com,False,False,True,False,,,Both Failed
+26,instagram.com,True,True,True,True,27.9,28.3,IPv6
+27,cloudflare.com,True,True,True,True,8.3,6.6,IPv6
+28,ui.com,True,True,True,True,7.0,5.3,IPv6
+29,bing.com,True,True,True,True,11.0,21.2,IPv6
+30,windows.net,True,False,True,False,346.0,,IPv4 Only
+31,digicert.com,True,False,True,False,374.3,,IPv4 Only
+32,googleusercontent.com,True,True,True,True,121.5,121.8,IPv6
+33,windowsupdate.com,False,False,True,False,,,Both Failed
+34,fbcdn.net,True,True,True,True,29.6,28.8,IPv6
+35,googlevideo.com,True,True,True,True,119.3,120.6,IPv6
+36,office365.com,True,False,True,False,645.3,,IPv4 Only
+37,tiktokv.com,True,False,True,False,9.7,,IPv4 Only
+38,sharepoint.com,True,False,True,False,40.2,,IPv4 Only
+39,netflix.com,True,True,True,True,352.0,347.2,IPv6
+40,googlesyndication.com,True,True,False,False,,,Failed
+41,skype.com,True,True,True,True,365.3,636.1,IPv6
+42,snapchat.com,True,False,True,False,30.6,,IPv4 Only
+43,outlook.com,True,False,True,False,600.6,,IPv4 Only
+44,msn.com,True,False,True,False,23.1,,IPv4 Only
+45,msftncsi.com,False,False,True,False,,,Both Failed
+46,tiktokcdn.com,False,False,True,False,,,Both Failed
+47,gvt2.com,False,False,True,False,,,Both Failed
+48,amazon.com,True,False,True,False,431.2,,IPv4 Only
+49,yahoo.com,True,True,True,True,431.6,380.8,IPv6
+50,whatsapp.net,True,True,True,True,27.6,28.8,IPv6
+51,ytimg.com,False,False,True,False,,,Both Failed
+52,cloudflare-dns.com,True,True,True,True,6.3,6.2,IPv6
+53,windows.com,True,True,True,True,561.0,36.0,IPv6
+54,msftconnecttest.com,False,False,True,False,,,Both Failed
+55,google.com.au,True,True,True,True,122.3,122.1,IPv6
+56,nr-data.net,True,True,False,False,,,Failed
+57,gmail.com,True,True,True,True,120.9,119.4,IPv6
+58,cloud.microsoft,True,True,True,True,350.3,378.7,IPv6
+59,googletagmanager.com,True,True,False,False,,,Failed
+60,amazon-adsystem.com,True,True,False,False,,,Failed
+61,google-analytics.com,True,True,False,False,,,Failed
+62,googleadservices.com,True,True,False,False,,,Failed
+63,dropbox.com,True,True,True,True,29.1,29.2,IPv6
+64,a2z.com,False,False,True,False,,,Both Failed
+65,akamaized.net,False,False,True,False,,,Both Failed
+66,cdn-apple.com,False,False,True,False,,,Both Failed
+67,adobe.com,True,True,True,True,9.0,6.1,IPv6
+68,rubiconproject.com,True,True,False,False,,,Failed
+69,msedge.net,True,False,False,False,,,Both Failed
+70,launchdarkly.com,True,False,True,False,30.0,,IPv4 Only
+71,pki.goog,True,True,True,True,120.2,121.3,IPv6
+72,msidentity.com,False,False,True,False,,,Both Failed
+73,avast.com,True,True,True,True,6.2,8.4,IPv6
+74,sentry.io,True,False,True,False,126.1,,IPv4 Only
+75,app-analytics-services.com,True,True,True,True,119.9,120.0,IPv6
+76,grammarly.com,True,False,True,False,7.0,,IPv4 Only
+77,adobe.io,True,False,True,False,433.4,,IPv4 Only
+78,ubuntu.com,True,True,True,True,553.2,543.3,IPv6
+79,lencr.org,True,True,True,True,30.5,29.8,IPv6
+80,chatgpt.com,True,True,True,True,6.9,6.9,IPv6
+81,adnxs.com,True,True,False,False,,,Failed
+82,app-measurement.com,True,True,False,False,,,Failed
+83,clarity.ms,True,False,True,False,562.5,,IPv4 Only
+84,steamserver.net,False,False,True,False,,,Both Failed
+85,cloudflare.net,True,True,True,True,7.9,9.2,IPv6
+86,linkedin.com,True,True,True,True,27.8,22.0,IPv6
+87,criteo.com,True,True,False,False,,,Failed
+88,fastly-edge.com,False,False,True,False,,,Both Failed
+89,azureedge.net,False,False,True,False,,,Both Failed
+90,mozilla.com,True,False,True,False,132.2,,IPv4 Only
+91,appsflyersdk.com,True,False,True,False,15.4,,IPv4 Only
+92,ggpht.com,False,False,True,False,,,Both Failed
+93,dns.google,True,True,True,True,120.1,121.0,IPv6
+94,mzstatic.com,True,False,True,False,337.2,,IPv4 Only
+95,3gppnetwork.org,False,False,True,False,,,Both Failed
+96,pubmatic.com,True,True,True,True,212.8,212.9,IPv6
+97,reddit.com,True,True,True,True,5.6,5.6,IPv6
+98,edgesuite.net,False,False,True,False,,,Both Failed
+99,gvt1.com,False,False,True,False,,,Both Failed
+100,adtrafficquality.google,True,True,True,True,120.1,120.2,IPv6
