@@ -1,0 +1,168 @@
+import requests
+import pandas as pd
+import matplotlib.pyplot as plt
+import re
+import numpy as np
+
+# URLs for the live data
+URL_CAPABILITY = "https://stats.labs.apnic.net/ipv6"
+URL_PERFORMANCE = "https://stats.labs.apnic.net/v6perf"
+CSV_FILENAME = "apnic_ipv6_data.csv"
+
+def fetch_data(url):
+    print(f"Fetching raw source from {url}...")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    return response.text
+
+def extract_ipv6_capability(html_text):
+    data = []
+    # Pattern: ["<a href=\"/ipv6/CODE\">...{v: 80.14,
+    pattern = re.compile(r'\["<a href=\\"/ipv6/([A-Z0-9]{2})\\">.*?\{v:\s*([\d\.]+),')
+    matches = pattern.findall(html_text)
+    for cc, cap_pct in matches:
+        data.append({'Code': cc, 'IPv6_Capable_Pct': float(cap_pct)})
+    return pd.DataFrame(data)
+
+def extract_ipv6_performance(html_text):
+    data = []
+    # Extract CC, RTT Diff, AND Sample Count
+    # Pattern looks for: ["<a href...Code...HTML...", RTT, Samples,
+    pattern = re.compile(r'\["<a href=\\"/v6perf/([A-Z0-9]{2})\\">.*?",\s*(-?[\d\.]+),\s*(\d+)')
+    matches = pattern.findall(html_text)
+    for cc, rtt, samples in matches:
+        data.append({
+            'Code': cc, 
+            'Mean_RTT_Diff': float(rtt),
+            'Samples': int(samples)
+        })
+    return pd.DataFrame(data)
+
+def save_and_summarize(df):
+    """Saves to CSV and prints a statistical summary."""
+    
+    # 1. Save to CSV
+    # Sort by adoption for the CSV dump
+    df_sorted = df.sort_values(by='IPv6_Capable_Pct', ascending=False)
+    df_sorted.to_csv(CSV_FILENAME, index=False)
+    print(f"\n[+] Raw data saved to: {CSV_FILENAME}")
+
+    # 2. Calculate Weighted Averages (Global experience)
+    total_samples = df['Samples'].sum()
+    weighted_cap = (df['IPv6_Capable_Pct'] * df['Samples']).sum() / total_samples
+    weighted_rtt = (df['Mean_RTT_Diff'] * df['Samples']).sum() / total_samples
+
+    # 3. Print Summary
+    print("-" * 60)
+    print(f"       APNIC IPV6 DATA SUMMARY ({len(df)} Economies)")
+    print("-" * 60)
+    print(f"Global Weighted Avg Adoption:   {weighted_cap:.2f}%")
+    print(f"Global Weighted Avg RTT Diff:   {weighted_rtt:.2f} ms")
+    if weighted_rtt < 0:
+        print("(On average, IPv6 is faster than IPv4 globally)")
+    else:
+        print("(On average, IPv4 is faster than IPv6 globally)")
+    
+    print("-" * 60)
+    print("TOP 5 ADOPTERS (Highest % Capable):")
+    print(df.nlargest(5, 'IPv6_Capable_Pct')[['Code', 'IPv6_Capable_Pct', 'Mean_RTT_Diff']].to_string(index=False))
+    
+    print("-" * 60)
+    print("FASTEST IPV6 RELATIVE TO IPV4 (Lowest/Negative RTT):")
+    # Filter for reasonable samples (>1000) to avoid tiny island noise in the summary
+    df_significant = df[df['Samples'] > 1000]
+    print(df_significant.nsmallest(5, 'Mean_RTT_Diff')[['Code', 'IPv6_Capable_Pct', 'Mean_RTT_Diff']].to_string(index=False))
+
+    print("-" * 60)
+    print("SLOWEST IPV6 RELATIVE TO IPV4 (Highest Positive RTT):")
+    print(df_significant.nlargest(5, 'Mean_RTT_Diff')[['Code', 'IPv6_Capable_Pct', 'Mean_RTT_Diff']].to_string(index=False))
+    print("-" * 60)
+
+def main():
+    # 1. Fetch & Extract
+    html_cap = fetch_data(URL_CAPABILITY)
+    df_cap = extract_ipv6_capability(html_cap)
+
+    html_perf = fetch_data(URL_PERFORMANCE)
+    df_perf = extract_ipv6_performance(html_perf)
+
+    if df_cap.empty or df_perf.empty:
+        print("Error: No data extracted.")
+        return
+
+    # 2. Merge
+    df_merged = pd.merge(df_cap, df_perf, on='Code', how='inner')
+    
+    # Filter out Regions (codes starting with X or Q)
+    df_merged = df_merged[~df_merged['Code'].str.startswith('X')]
+    df_merged = df_merged[~df_merged['Code'].str.startswith('Q')]
+    
+    # 3. Save CSV and Print Text Summary
+    save_and_summarize(df_merged)
+
+    # 4. Prepare for Plotting (Clean extreme outliers for chart readability)
+    df_clean = df_merged[abs(df_merged['Mean_RTT_Diff']) < 300].copy()
+    
+    # Calculate Bubble Size (Logarithmic)
+    df_clean['Bubble_Size'] = np.log10(df_clean['Samples'] + 1) * 30
+
+    # 5. Plotting
+    plt.figure(figsize=(14, 10))
+    
+    x = df_clean['IPv6_Capable_Pct']
+    y = df_clean['Mean_RTT_Diff']
+    w = df_clean['Samples']
+
+    # Unweighted Trend (Black Dashed)
+    z = np.polyfit(x, y, 1)
+    p = np.poly1d(z)
+    plt.plot(x, p(x), "k--", linewidth=1, alpha=0.5, label="Trend (By Country)")
+
+    # Weighted Trend (Blue Solid)
+    z_weighted = np.polyfit(x, y, 1, w=np.sqrt(w)) 
+    p_weighted = np.poly1d(z_weighted)
+    
+    # Calculate correlation for label
+    correlation_matrix = np.corrcoef(x, y)
+    r_squared = correlation_matrix[0,1]**2
+    
+    plt.plot(x, p_weighted(x), "b-", linewidth=2, alpha=0.8, label=f"Trend (Weighted by Vol)")
+
+    # Scatter
+    plt.scatter(
+        x, y, 
+        s=df_clean['Bubble_Size'], 
+        alpha=0.5, 
+        edgecolors='black', 
+        linewidth=0.5,
+        c='#1f77b4', 
+        label='Economies'
+    )
+
+    # Reference Lines
+    plt.axhline(0, color='red', linestyle='-', linewidth=1, label='Parity (IPv6 = IPv4)')
+    plt.axvline(50, color='gray', linestyle=':', alpha=0.3)
+
+    # Invert Y (Negative is UP/Better)
+    plt.gca().invert_yaxis()
+
+    # Annotate Top 5 by Volume
+    top_vol = df_clean.nlargest(5, 'Samples')
+    for _, row in top_vol.iterrows():
+        plt.text(row['IPv6_Capable_Pct'], row['Mean_RTT_Diff'], row['Code'], 
+                 fontsize=10, fontweight='bold', color='black', ha='center', va='center')
+
+    plt.title('IPv6 Adoption vs Performance (Source: APNIC Labs)', fontsize=16)
+    plt.xlabel('IPv6 Capable (%)', fontsize=12)
+    plt.ylabel('Mean RTT Difference (ms)\n(UP = IPv6 Faster | DOWN = IPv4 Faster)', fontsize=12)
+    plt.grid(True, linestyle='--', alpha=0.5)
+    plt.legend(loc='lower right')
+    
+    plt.tight_layout()
+    plt.show()
+
+if __name__ == "__main__":
+    main()
