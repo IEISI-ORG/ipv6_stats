@@ -1,3 +1,4 @@
+import argparse
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -8,6 +9,8 @@ import numpy as np
 URL_CAPABILITY = "https://stats.labs.apnic.net/ipv6"
 URL_PERFORMANCE = "https://stats.labs.apnic.net/v6perf"
 CSV_FILENAME = "apnic_ipv6_data.csv"
+PNG_FILENAME = "apnic_scatter.png"
+MIN_SAMPLES = 1000
 
 def fetch_data(url):
     print(f"Fetching raw source from {url}...")
@@ -41,21 +44,21 @@ def extract_ipv6_performance(html_text):
         })
     return pd.DataFrame(data)
 
-def save_and_summarize(df):
-    """Saves to CSV and prints a statistical summary."""
-    
-    # 1. Save to CSV
-    # Sort by adoption for the CSV dump
+def save_csv(df):
+    """Saves the merged data to CSV, sorted by adoption."""
     df_sorted = df.sort_values(by='IPv6_Capable_Pct', ascending=False)
     df_sorted.to_csv(CSV_FILENAME, index=False)
     print(f"\n[+] Raw data saved to: {CSV_FILENAME}")
 
-    # 2. Calculate Weighted Averages (Global experience)
+def summarize(df):
+    """Prints a statistical summary."""
+
+    # 1. Calculate Weighted Averages (Global experience)
     total_samples = df['Samples'].sum()
     weighted_cap = (df['IPv6_Capable_Pct'] * df['Samples']).sum() / total_samples
     weighted_rtt = (df['Mean_RTT_Diff'] * df['Samples']).sum() / total_samples
 
-    # 3. Print Summary
+    # 2. Print Summary
     print("-" * 60)
     print(f"       APNIC IPV6 DATA SUMMARY ({len(df)} Economies)")
     print("-" * 60)
@@ -66,14 +69,15 @@ def save_and_summarize(df):
     else:
         print("(On average, IPv4 is faster than IPv6 globally)")
     
+    # Filter for reasonable samples to avoid tiny island noise in the rankings
+    df_significant = df[df['Samples'] > MIN_SAMPLES]
+
     print("-" * 60)
-    print("TOP 5 ADOPTERS (Highest % Capable):")
-    print(df.nlargest(5, 'IPv6_Capable_Pct')[['Code', 'IPv6_Capable_Pct', 'Mean_RTT_Diff']].to_string(index=False))
-    
+    print(f"TOP 5 ADOPTERS (Highest % Capable, >{MIN_SAMPLES} samples):")
+    print(df_significant.nlargest(5, 'IPv6_Capable_Pct')[['Code', 'IPv6_Capable_Pct', 'Mean_RTT_Diff']].to_string(index=False))
+
     print("-" * 60)
     print("FASTEST IPV6 RELATIVE TO IPV4 (Lowest/Negative RTT):")
-    # Filter for reasonable samples (>1000) to avoid tiny island noise in the summary
-    df_significant = df[df['Samples'] > 1000]
     print(df_significant.nsmallest(5, 'Mean_RTT_Diff')[['Code', 'IPv6_Capable_Pct', 'Mean_RTT_Diff']].to_string(index=False))
 
     print("-" * 60)
@@ -81,8 +85,8 @@ def save_and_summarize(df):
     print(df_significant.nlargest(5, 'Mean_RTT_Diff')[['Code', 'IPv6_Capable_Pct', 'Mean_RTT_Diff']].to_string(index=False))
     print("-" * 60)
 
-def main():
-    # 1. Fetch & Extract
+def fetch_merged():
+    """Fetches live APNIC data and merges capability with performance."""
     html_cap = fetch_data(URL_CAPABILITY)
     df_cap = extract_ipv6_capability(html_cap)
 
@@ -90,18 +94,35 @@ def main():
     df_perf = extract_ipv6_performance(html_perf)
 
     if df_cap.empty or df_perf.empty:
-        print("Error: No data extracted.")
-        return
+        return None
 
-    # 2. Merge
     df_merged = pd.merge(df_cap, df_perf, on='Code', how='inner')
-    
+
     # Filter out Regions (codes starting with X or Q)
     df_merged = df_merged[~df_merged['Code'].str.startswith('X')]
     df_merged = df_merged[~df_merged['Code'].str.startswith('Q')]
-    
-    # 3. Save CSV and Print Text Summary
-    save_and_summarize(df_merged)
+    return df_merged
+
+def main():
+    parser = argparse.ArgumentParser(description="APNIC IPv6 adoption vs performance scatter plot")
+    parser.add_argument("--csv", help="Plot an existing CSV (e.g. a snapshot) instead of fetching live data")
+    parser.add_argument("--out", default=PNG_FILENAME, help=f"Output PNG path (default: {PNG_FILENAME})")
+    parser.add_argument("--title-suffix", default="", help="Appended to the chart title, e.g. a date")
+    args = parser.parse_args()
+
+    # 1. Load: from a saved CSV, or fetch live and save
+    if args.csv:
+        df_merged = pd.read_csv(args.csv)
+        print(f"[+] Loaded {len(df_merged)} economies from: {args.csv}")
+    else:
+        df_merged = fetch_merged()
+        if df_merged is None:
+            print("Error: No data extracted.")
+            return
+        save_csv(df_merged)
+
+    # 2. Print Text Summary
+    summarize(df_merged)
 
     # 4. Prepare for Plotting (Clean extreme outliers for chart readability)
     df_clean = df_merged[abs(df_merged['Mean_RTT_Diff']) < 300].copy()
@@ -155,13 +176,15 @@ def main():
         plt.text(row['IPv6_Capable_Pct'], row['Mean_RTT_Diff'], row['Code'], 
                  fontsize=10, fontweight='bold', color='black', ha='center', va='center')
 
-    plt.title('IPv6 Adoption vs Performance (Source: APNIC Labs)', fontsize=16)
+    plt.title(f'IPv6 Adoption vs Performance (Source: APNIC Labs){args.title_suffix}', fontsize=16)
     plt.xlabel('IPv6 Capable (%)', fontsize=12)
     plt.ylabel('Mean RTT Difference (ms)\n(UP = IPv6 Faster | DOWN = IPv4 Faster)', fontsize=12)
     plt.grid(True, linestyle='--', alpha=0.5)
     plt.legend(loc='lower right')
     
     plt.tight_layout()
+    plt.savefig(args.out, dpi=120)
+    print(f"[+] Chart saved to: {args.out}")
     plt.show()
 
 if __name__ == "__main__":
