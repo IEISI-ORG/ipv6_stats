@@ -85,6 +85,32 @@ def summarize(df):
     print(df_significant.nlargest(5, 'Mean_RTT_Diff')[['Code', 'IPv6_Capable_Pct', 'Mean_RTT_Diff']].to_string(index=False))
     print("-" * 60)
 
+# Candidate label offsets in points, tried in order until one doesn't collide
+LABEL_OFFSETS = [(0, 14), (0, -14), (18, 0), (-18, 0),
+                 (14, 14), (-14, 14), (14, -14), (-14, -14),
+                 (0, 28), (0, -28), (28, 0), (-28, 0)]
+
+def annotate_without_overlap(ax, rows):
+    """Labels points by Code, nudging each label until it clears earlier ones."""
+    renderer = ax.figure.canvas.get_renderer()
+    placed = []
+    for _, row in rows.iterrows():
+        for dx, dy in LABEL_OFFSETS:
+            label = ax.annotate(
+                row['Code'], (row['IPv6_Capable_Pct'], row['Mean_RTT_Diff']),
+                xytext=(dx, dy), textcoords='offset points',
+                fontsize=10, fontweight='bold', color='black', ha='center', va='center',
+                arrowprops=dict(arrowstyle='-', color='black', lw=0.6, shrinkA=0, shrinkB=2))
+            bbox = label.get_window_extent(renderer).expanded(1.1, 1.2)
+            if not any(bbox.overlaps(other) for other in placed):
+                placed.append(bbox)
+                break
+            label.remove()
+        else:
+            # Every candidate collided: keep the last one rather than drop the label
+            placed.append(bbox)
+            ax.add_artist(label)
+
 def fetch_merged():
     """Fetches live APNIC data and merges capability with performance."""
     html_cap = fetch_data(URL_CAPABILITY)
@@ -170,11 +196,6 @@ def main():
     # Invert Y (Negative is UP/Better)
     plt.gca().invert_yaxis()
 
-    # Annotate Top 5 by Volume
-    top_vol = df_clean.nlargest(5, 'Samples')
-    for _, row in top_vol.iterrows():
-        plt.text(row['IPv6_Capable_Pct'], row['Mean_RTT_Diff'], row['Code'], 
-                 fontsize=10, fontweight='bold', color='black', ha='center', va='center')
 
     plt.title(f'IPv6 Adoption vs Performance (Source: APNIC Labs){args.title_suffix}', fontsize=16)
     plt.xlabel('IPv6 Capable (%)', fontsize=12)
@@ -183,6 +204,11 @@ def main():
     plt.legend(loc='lower right')
     
     plt.tight_layout()
+
+    # Annotate Top 5 by Volume (after layout, so label extents are final)
+    top_vol = df_clean.nlargest(5, 'Samples')
+    annotate_without_overlap(plt.gca(), top_vol)
+
     plt.savefig(args.out, dpi=120)
     print(f"[+] Chart saved to: {args.out}")
     plt.show()
